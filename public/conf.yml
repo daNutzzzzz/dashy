@@ -529,6 +529,18 @@ sections:
         icon: hl-duplicati
         url: http://10.0.9.41:8200/
         id: 3_713_docker
+  - name: Git Backups
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gitea
+        description: Gitea
+        icon: hl-gitea
+        url: http://10.0.8.12:3000/
   - name: Websites
     displayData:
       sortBy: default
