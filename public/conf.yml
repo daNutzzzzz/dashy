@@ -4,15 +4,15 @@ pageInfo:
   title: Homelab
   description: ''
   navLinks:
-      - title: Netlify
-      path: https://app.netlify.com/teams/dan-durden/overview
-      target: newtab
-      - title: GitHub
-      path: https://github.com/Lissy93/dashy
-      target: newtab
-      - title: Documentation
-      path: https://dashy.to/docs
-      target: newtab
+  - title: Netlify
+    path: https://app.netlify.com/teams/dan-durden/overview
+    target: newtab
+  - title: GitHub
+    path: https://github.com/Lissy93/dashy
+    target: newtab
+  - title: Documentation
+    path: https://dashy.to/docs
+    target: newtab
   footerText: ''
 
 # Optional app settings and configuration
