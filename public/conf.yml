@@ -4,7 +4,10 @@ pageInfo:
   title: Homelab
   description: ''
   navLinks:
-    - title: GitHub
+ - title: Netlify
+      path: https://app.netlify.com/teams/dan-durden/overview
+      target: newtab
+      - title: GitHub
       path: https://github.com/Lissy93/dashy
       target: newtab
     - title: Documentation
