@@ -15,6 +15,10 @@ pageInfo:
     target: newtab
   footerText: ''
 
+pages:
+  - name: Networking Services
+    path: 'networking.yml'
+
 # Optional app settings and configuration
 appConfig:
   theme: nord-frost
