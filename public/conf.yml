@@ -562,3 +562,15 @@ sections:
         icon: favicon
         url: https://10.0.8.130/
         id: 0_301_proxmoxhpilo
+  - name: Hosting
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Netlify
+        description:
+        icon: favicon
+        url: https://app.netlify.com/teams/dan-durden/overview
