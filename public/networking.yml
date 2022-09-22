@@ -1,0 +1,553 @@
+pageInfo:
+  title: Networking
+  description: ''
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+      target: newtab
+    - title: Documentation
+      path: https://dashy.to/docs
+      target: newtab
+  footerText: ''
+sections:
+  - name: Media & Entertainment
+    icon: fas fa-photo-video
+    displayData:
+      sortBy: last-used
+      cols: 2
+      itemCountX: 6
+      rows: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Alltube
+        icon: hl-alltube
+        url: https://alltube.online/
+        id: 0_1956_alltube
+      - title: YT Downloads
+        icon: hl-youtubedl
+        url: https://yt1s.app/
+        id: 1_1956_ytdownloads
+      - title: Couch Potato
+        icon: hl-couchpotato
+        url: http://10.0.8.10:5080/
+        id: 2_1956_couchpotato
+      - title: Jellyfin
+        icon: hl-jellyfin
+        url: https://jellyfin.org/
+        id: 3_1956_jellyfin
+      - title: FreshRSS
+        icon: hl-freshrss
+        id: 4_1956_freshrss
+      - title: Requestrr
+        icon: hl-requestrr
+        id: 5_1956_requestrr
+      - title: Web Torrent
+        icon: hl-webtorrent
+        id: 6_1956_webtorrent
+      - title: Airsonic
+        icon: hl-airsonic
+        url: https://airsonic.github.io/docs/install/docker/
+        id: 7_1956_airsonic
+      - title: Plex
+        icon: hl-plex
+        url: http://10.0.8.10:32400/web/
+        id: 8_1956_plex
+      - title: PlexDrive
+        icon: hl-plexdrive
+        url: https://github.com/plexdrive/plexdrive
+        id: 9_1956_plexdrive
+      - title: PlexRequests
+        icon: hl-plexrequests
+        id: 10_1956_plexrequests
+      - title: SABnzbd
+        icon: favicon
+        url: http://10.0.9.41:8080/
+        id: 11_1956_sabnzbd
+      - title: qBittorrent
+        icon: hl-qbittorrent
+        url: http://10.0.9.40:8087/
+        id: 12_1956_qbittorrent
+      - title: NZBHydra
+        icon: hl-nzbhydra
+        url: http://10.0.9.41:5076/
+        id: 13_1956_nzbhydra
+      - title: Medusa
+        icon: favicon
+        url: http://10.0.8.10:8081/home/
+        id: 14_1956_medusa
+      - title: Headphones
+        icon: hl-headphones
+        url: http://10.0.8.10:14002/home
+        id: 15_1956_headphones
+      - title: LazyLibrarian
+        icon: favicon
+        url: http://10.0.8.10:5299/books
+        id: 16_1956_lazylibrarian
+      - title: Tautulli
+        icon: favicon
+        url: http://10.0.8.10:8181/home
+        id: 17_1956_tautulli
+      - title: Trakt
+        icon: hl-trakt
+        url: >-
+          https://trakt.tv/users/danjdurden/watchlist?fade=watched&display=movie&sort=title,asc
+        id: 18_1956_trakt
+      - title: LastFM
+        icon: favicon
+        url: https://www.last.fm/user/DanDurden
+        id: 19_1956_lastfm
+      - title: Nzbplanet
+        icon: favicon
+        url: >-
+          https://nzbplanet.net/movies?title=&actors=&director=&rating=&genre=&from=2021&to=2023&t=2000
+        id: 20_1956_nzbplanet
+      - title: DrunkenSlug
+        icon: favicon
+        url: >-
+          https://drunkenslug.com/movies?title=&actors=&director=&rating=6&genre=&t=2000&year=2020&yearup=on
+        id: 21_1956_drunkenslug
+      - title: MovieBox
+        icon: favicon
+        url: http://themoviebox.net/
+        id: 22_1956_moviebox
+      - title: UK EPG
+        icon: favicon
+        url: https://www.freeview.co.uk/tv-guide
+        id: 23_1956_ukepg
+      - title: Xtorx
+        icon: hl-xteve
+        url: https://www.xtorx.com/
+        id: 24_1956_xtorx
+      - title: Radarr
+        icon: favicon
+        url: http://10.0.9.41:7878
+        id: 25_1956_radarr
+      - title: Sonarr
+        icon: favicon
+        url: http://10.0.9.41:8989
+        id: 26_1956_sonarr
+      - title: Lidarr
+        icon: favicon
+        url: http://10.0.9.41:8686
+        id: 27_1956_lidarr
+      - title: Readarr
+        icon: favicon
+        url: http://10.0.9.41:8787
+        id: 28_1956_readarr
+  - name: Networking
+    icon: fas fa-network-wired
+    items:
+      - title: UniFi
+        icon: hl-unifi
+        url: https://10.0.8.12:8443/
+        id: 0_1064_unifi
+      - title: OPNSense
+        description: Firewall and network config
+        icon: hl-opnsense
+        id: 1_1064_opnsense
+      - title: Pi-Hole - 12
+        description: DNS ad-blocking
+        icon: hl-pihole
+        url: http://10.0.8.12:180/admin/
+        id: 2_1064_pihole
+      - title: MalTrail
+        description: Malicious traffic detection system
+        icon: hl-router
+        url: https://github.com/stamparm/MalTrail
+        id: 3_1064_maltrail
+      - title: Ntopng
+        description: Network traffic probe + usage monitor
+        icon: hl-ntop
+        url: https://www.ntop.org/
+        id: 4_1064_ntopng
+      - title: Monit
+        description: Status of firewall system alerts
+        icon: hl-monit
+        url: https://mmonit.com/monit/
+        id: 5_1064_monit
+      - title: PiAlert
+        description: Presence monitoring and ARP scanning
+        icon: hl-alertmanager
+        id: 6_1064_pialert
+      - title: Pi-Hole - 10
+        icon: hl-pihole
+        url: http://10.0.8.10:180/admin/
+        id: 7_1064_pihole
+      - title: piAlert
+        icon: hl-pi-alert
+        url: http://10.0.9.40:20211/pialert/
+        id: 8_1064_pialert
+      - title: DDNS Updater
+        icon: hl-ddns-updater
+        url: http://10.0.9.40:8001/
+        id: 9_1064_ddnsupdater
+      - title: Modem
+        icon: awda
+        url: http://10.0.8.6/
+        id: 10_1064_modem
+  - name: Network Monitoring
+    icon: fas fa-tachometer-alt-fast
+    items:
+      - title: SmokePing
+        description: Network latency monitoring
+        icon: hl-smokeping
+        url: http://10.0.9.40:82/smokeping/?target=ExternalNodes
+        id: 0_1840_smokeping
+      - title: StatPing
+        description: Up-time monitoring for local service
+        icon: hl-statping
+        url: https://github.com/statping/statping
+        id: 1_1840_statping
+      - title: LibreSpeed
+        description: Local network speed and latency test
+        icon: hl-librespeed
+        url: http://10.0.9.40:85/
+        id: 2_1840_librespeed
+      - title: NetData
+        description: Real-time system resource usage
+        icon: hl-netdata
+        url: https://www.netdata.cloud/
+        id: 3_1840_netdata
+      - title: Zabbix
+        description: IT Monitoring
+        icon: hl-zabbix
+        url: https://www.zabbix.com/
+        id: 4_1840_zabbix
+      - title: Cockpit
+        description: All-in-one control panel
+        icon: hl-cockpit
+        url: https://www.redhat.com/sysadmin/intro-cockpit
+        id: 5_1840_cockpit
+  - name: System Monitoring
+    icon: fas fa-monitor-heart-rate
+    items:
+      - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        url: https://github.com/google/cadvisor
+        id: 0_1739_cadvisor
+      - title: Dozzle
+        description: Docker container web log viewer
+        icon: hl-dozzle
+        id: 1_1739_dozzle
+      - title: HealthChecks
+        description: Cron Job Monitoring
+        icon: hl-healthchecks
+        url: >-
+          https://healthchecks.io/projects/4c64aa92-a528-4e75-9cc4-2bd0aef3810b/checks/
+        id: 2_1739_healthchecks
+      - title: Grafana
+        description: Data visualised on dashboards
+        icon: hl-grafana
+        id: 3_1739_grafana
+      - title: Prometheus
+        description: System Statistics Aggregation with PromQL
+        icon: hl-prometheus
+        id: 4_1739_prometheus
+  - name: Home Control
+    icon: fas fa-house-signal
+    items:
+      - title: Home Assistant
+        description: Smart home control
+        icon: hl-home-assistant
+        id: 0_1162_homeassistant
+      - title: Node-RED
+        description: Flow-based automation
+        icon: hl-nodered
+        id: 1_1162_nodered
+      - title: OctoPrint
+        description: 3D Printer Control
+        icon: hl-octoprint
+        id: 2_1162_octoprint
+      - title: Zigbee 2 Mqtt
+        description: Zigbee to MQTT
+        icon: hl-zigbee2mqtt
+        id: 3_1162_zigbeemqtt
+      - title: Alarm Pi
+        description: IOT telegram-controlled alarm clock
+        icon: hl-alarmpi
+        id: 4_1162_alarmpi
+      - title: Brew Pi
+        description: IOT brewery controller
+        icon: hl-brewpi
+        id: 5_1162_brewpi
+  - name: Productivity
+    icon: fas fa-bookmark
+    items:
+      - title: NextCloud
+        description: File storage and apps
+        icon: hl-nextcloud
+        id: 0_1302_nextcloud
+      - title: BitWarden
+        description: Password manager
+        icon: hl-bitwarden
+        id: 1_1302_bitwarden
+      - title: Readarr
+        description: E-reader app
+        icon: hl-readarr
+        id: 2_1302_readarr
+      - title: Wallabag
+        description: Bookmark Manager
+        icon: hl-wallabag
+        id: 3_1302_wallabag
+      - title: ArchiveBox
+        description: Archive Manager
+        icon: hl-archivebox
+        id: 4_1302_archivebox
+      - title: VS Code
+        description: Cloud code editor
+        icon: hl-code
+        id: 5_1302_vscode
+  - name: Learn more about Dashy
+    icon: fas fa-rocket
+    displayData:
+      collapsed: true
+    items:
+      - title: GitHub
+        description: Source Code, Issues and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: fab fa-github-alt
+        id: 0_2073_github
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+        id: 1_2073_docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+        icon: far fa-grin-hearts
+        id: 2_2073_showcase
+      - title: Config Docs
+        description: See full list of configuration options
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+        icon: fas fa-wrench
+        id: 3_2073_configdocs
+      - title: Demo 2
+        description: Project management links for Dashy
+        icon: fas fa-sparkles
+        url: https://live.dashy.to/
+        target: newtab
+        id: 4_2073_demo
+      - title: Demo 3
+        description: Live deployment of development env
+        icon: far fa-sparkles
+        url: https://dev.dashy.to/
+        target: newtab
+        id: 5_2073_demo
+  - name: Infrastructure
+    icon: ''
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: UPS
+        icon: test
+        url: http://10.0.8.20/NMC/
+        id: 0_1505_ups
+  - name: GitHub
+    icon: fab fa-github-alt
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: daNutz
+        icon: fab fa-github-alt
+        url: https://github.com/daNutzzzzz
+        id: 0_579_danutz
+      - title: Animal
+        icon: fab fa-github-alt
+        url: https://github.com/Animal-UK
+        id: 1_579_animal
+      - title: InsideEARTH
+        icon: fab fa-github-alt
+        url: https://github.com/insideearth
+        id: 2_579_insideearth
+      - title: InsideEARTH 2140
+        icon: fab fa-github-alt
+        url: https://github.com/insideearth2140
+        id: 3_579_insideearth
+      - title: InsideEARTH 2150
+        icon: fab fa-github-alt
+        url: https://github.com/insideearth2150
+        id: 4_579_insideearth
+      - title: InsideEARTH 2160
+        icon: fab fa-github-alt
+        url: https://github.com/insideearth2160
+        id: 5_579_insideearth
+  - name: Icons
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Home-Lab Icons
+        url: https://github.com/WalkxHub/dashboard-icons#icons
+        id: 0_508_homelabicons
+      - title: Simple Icons
+        url: https://simpleicons.org/
+        id: 1_508_simpleicons
+      - title: Icon Scout
+        url: https://iconscout.com/
+        id: 2_508_iconscout
+  - name: File Sharing
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: FilePizza
+        icon: hl-filepizza
+        url: https://file.pizza/
+        id: 0_1132_filepizza
+      - title: Instant.io
+        icon: hl-joomla
+        url: https://instant.io/
+        id: 1_1132_instantio
+  - name: Hosts
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Proxmox 01
+        description: Proxmox 01
+        icon: favicon
+        url: https://10.0.8.15:8006/
+        id: 0_529_proxmox
+      - title: Proxmox 02
+        description: Proxmox 02
+        icon: favicon
+        url: https://10.0.8.16:8006/
+        id: 1_529_proxmox
+      - title: Nexus Media
+        description: Nexus Media
+        icon: hl-qnap
+        url: https://10.0.8.10/cgi-bin/
+        id: 2_529_nexusmedia
+      - title: Nexus App
+        description: Nexus App
+        icon: hl-qnap
+        url: https://10.0.8.12/cgi-bin/
+        id: 3_529_nexusapp
+  - name: Linux OS
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Docker 01 - Glances
+        description: Simple resource usage
+        icon: hl-glances
+        url: http://10.0.9.40:61208/
+        id: 0_722_dockerglances
+      - title: Docker 01 - Glances
+        description: Docker 02
+        icon: hl-glances
+        url: http://10.0.9.41:61208/
+        id: 1_722_dockerglances
+  - name: Container Management
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Nexus Media
+        description: Portainer
+        icon: si-portainer
+        url: http://10.0.8.10:9000/
+        id: 0_1984_nexusmedia
+      - title: Nexus App
+        description: Portainer
+        icon: si-portainer
+        url: http://10.0.8.12:9000/
+        id: 1_1984_nexusapp
+      - title: Docker 01
+        description: Portainer
+        icon: si-portainer
+        url: http://10.0.9.40:9000/
+        id: 2_1984_docker
+      - title: Docker 02
+        description: Portainer
+        icon: si-portainer
+        url: http://10.0.9.41:9000/
+        id: 3_1984_docker
+  - name: Backups
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Nexus Media
+        description: Duplicati
+        icon: hl-duplicati
+        url: http://10.0.8.10:8200/
+        id: 0_713_nexusmedia
+      - title: Nexus App
+        description: Duplicati
+        icon: hl-duplicati
+        url: http://10.0.8.12:8200/
+        id: 1_713_nexusapp
+      - title: Docker 01
+        description: Duplicati
+        icon: hl-duplicati
+        url: http://10.0.9.40:8200/
+        id: 2_713_docker
+      - title: Docker 02
+        description: Duplicati
+        icon: hl-duplicati
+        url: http://10.0.9.41:8200/
+        id: 3_713_docker
+  - name: Websites
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: AVForums
+        url: https://www.avforums.com/forums/
+        target: newtab
+        id: 0_838_avforums
+      - title: AVSForum
+        url: https://www.avsforum.com/forums/
+        target: newtab
+        id: 1_838_avsforum
+      - title: QNAP Forum
+        url: https://forum.qnap.com/
+        target: newtab
+        id: 2_838_qnapforum
+  - name: OOBM
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Proxmox 02 - HP iLO
+        description: HP iLO
+        icon: favicon
+        url: https://10.0.8.130/
+        id: 0_301_proxmoxhpilo
