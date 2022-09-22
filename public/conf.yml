@@ -1,23 +1,21 @@
 ---
-# Main content - An array of Pages
-pages:
-- name: Networking Services
-  path: 'networking.yml'
-- name: Work Stuff
-  path: 'work.yml'
-  
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Homelab
   description: ''
+  pages:
+      - name: Networking Services
+      path: 'networking.yml'
+      - name: Work Stuff
+      path: 'work.yml'
   navLinks:
- - title: Netlify
+      - title: Netlify
       path: https://app.netlify.com/teams/dan-durden/overview
       target: newtab
       - title: GitHub
       path: https://github.com/Lissy93/dashy
       target: newtab
-    - title: Documentation
+      - title: Documentation
       path: https://dashy.to/docs
       target: newtab
   footerText: ''
