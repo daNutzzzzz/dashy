@@ -3,11 +3,6 @@
 pageInfo:
   title: Homelab
   description: ''
-  pages:
-      - name: Networking Services
-      path: 'networking.yml'
-      - name: Work Stuff
-      path: 'work.yml'
   navLinks:
       - title: Netlify
       path: https://app.netlify.com/teams/dan-durden/overview
