@@ -81,7 +81,7 @@ sections:
         id: 11_1956_sabnzbd
       - title: qBittorrent
         icon: hl-qbittorrent
-        url: http://10.0.9.40:8087/
+        url: http://10.0.9.41:8087/
         id: 12_1956_qbittorrent
       - title: NZBHydra
         icon: hl-nzbhydra
