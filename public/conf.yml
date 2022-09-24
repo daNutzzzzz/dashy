@@ -260,6 +260,7 @@ sections:
         description: Data visualised on dashboards
         icon: hl-grafana
         id: 3_1739_grafana
+        url: http://10.0.9.40:3030/
       - title: Prometheus
         description: System Statistics Aggregation with PromQL
         icon: hl-prometheus
