@@ -1,14 +1,29 @@
+---
+# Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Networking
+  title: Homelab
   description: ''
   navLinks:
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
-      target: newtab
-    - title: Documentation
-      path: https://dashy.to/docs
-      target: newtab
+    target: newtab
+  - title: GitHub
+    path: https://github.com/Lissy93/dashy
+    target: newtab
+  - title: Documentation
+    path: https://dashy.to/docs
+    target: newtab
   footerText: ''
+
+pages:
+  - name: Infrastructure Services
+    path: 'Infrastructure.yml'
+  - name: Media & Entertainment
+    path: 'Media-Entertainment.yml'
+
+# Optional app settings and configuration
+appConfig:
+  theme: nord-frost
+ 
+# Main content - An array of sections, each containing an array of items
 sections:
   - name: Media & Entertainment
     icon: fas fa-photo-video
@@ -62,11 +77,11 @@ sections:
         id: 10_1956_plexrequests
       - title: SABnzbd
         icon: favicon
-        url: http://10.0.9.41:8080/
+        url: http://10.0.9.41:8088/
         id: 11_1956_sabnzbd
       - title: qBittorrent
         icon: hl-qbittorrent
-        url: http://10.0.9.40:8087/
+        url: http://10.0.9.41:8087/
         id: 12_1956_qbittorrent
       - title: NZBHydra
         icon: hl-nzbhydra
@@ -135,116 +150,6 @@ sections:
         icon: favicon
         url: http://10.0.9.41:8787
         id: 28_1956_readarr
-  - name: Networking
-    icon: fas fa-network-wired
-    items:
-      - title: UniFi
-        icon: hl-unifi
-        url: https://10.0.8.12:8443/
-        id: 0_1064_unifi
-      - title: OPNSense
-        description: Firewall and network config
-        icon: hl-opnsense
-        id: 1_1064_opnsense
-      - title: Pi-Hole - 12
-        description: DNS ad-blocking
-        icon: hl-pihole
-        url: http://10.0.8.12:180/admin/
-        id: 2_1064_pihole
-      - title: MalTrail
-        description: Malicious traffic detection system
-        icon: hl-router
-        url: https://github.com/stamparm/MalTrail
-        id: 3_1064_maltrail
-      - title: Ntopng
-        description: Network traffic probe + usage monitor
-        icon: hl-ntop
-        url: https://www.ntop.org/
-        id: 4_1064_ntopng
-      - title: Monit
-        description: Status of firewall system alerts
-        icon: hl-monit
-        url: https://mmonit.com/monit/
-        id: 5_1064_monit
-      - title: PiAlert
-        description: Presence monitoring and ARP scanning
-        icon: hl-alertmanager
-        id: 6_1064_pialert
-      - title: Pi-Hole - 10
-        icon: hl-pihole
-        url: http://10.0.8.10:180/admin/
-        id: 7_1064_pihole
-      - title: piAlert
-        icon: hl-pi-alert
-        url: http://10.0.9.40:20211/pialert/
-        id: 8_1064_pialert
-      - title: DDNS Updater
-        icon: hl-ddns-updater
-        url: http://10.0.9.40:8001/
-        id: 9_1064_ddnsupdater
-      - title: Modem
-        icon: awda
-        url: http://10.0.8.6/
-        id: 10_1064_modem
-  - name: Network Monitoring
-    icon: fas fa-tachometer-alt-fast
-    items:
-      - title: SmokePing
-        description: Network latency monitoring
-        icon: hl-smokeping
-        url: http://10.0.9.40:82/smokeping/?target=ExternalNodes
-        id: 0_1840_smokeping
-      - title: StatPing
-        description: Up-time monitoring for local service
-        icon: hl-statping
-        url: https://github.com/statping/statping
-        id: 1_1840_statping
-      - title: LibreSpeed
-        description: Local network speed and latency test
-        icon: hl-librespeed
-        url: http://10.0.9.40:85/
-        id: 2_1840_librespeed
-      - title: NetData
-        description: Real-time system resource usage
-        icon: hl-netdata
-        url: https://www.netdata.cloud/
-        id: 3_1840_netdata
-      - title: Zabbix
-        description: IT Monitoring
-        icon: hl-zabbix
-        url: https://www.zabbix.com/
-        id: 4_1840_zabbix
-      - title: Cockpit
-        description: All-in-one control panel
-        icon: hl-cockpit
-        url: https://www.redhat.com/sysadmin/intro-cockpit
-        id: 5_1840_cockpit
-  - name: System Monitoring
-    icon: fas fa-monitor-heart-rate
-    items:
-      - title: cAdvisor
-        description: Container monitoring
-        icon: hl-cadvisor
-        url: https://github.com/google/cadvisor
-        id: 0_1739_cadvisor
-      - title: Dozzle
-        description: Docker container web log viewer
-        icon: hl-dozzle
-        id: 1_1739_dozzle
-      - title: HealthChecks
-        description: Cron Job Monitoring
-        icon: hl-healthchecks
-        url: >-
-          https://healthchecks.io/projects/4c64aa92-a528-4e75-9cc4-2bd0aef3810b/checks/
-        id: 2_1739_healthchecks
-      - title: Grafana
-        description: Data visualised on dashboards
-        icon: hl-grafana
-        id: 3_1739_grafana
-      - title: Prometheus
-        description: System Statistics Aggregation with PromQL
-        icon: hl-prometheus
-        id: 4_1739_prometheus
   - name: Home Control
     icon: fas fa-house-signal
     items:
@@ -337,19 +242,6 @@ sections:
         url: https://dev.dashy.to/
         target: newtab
         id: 5_2073_demo
-  - name: Infrastructure
-    icon: ''
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: UPS
-        icon: test
-        url: http://10.0.8.20/NMC/
-        id: 0_1505_ups
   - name: GitHub
     icon: fab fa-github-alt
     displayData:
@@ -416,108 +308,6 @@ sections:
         icon: hl-joomla
         url: https://instant.io/
         id: 1_1132_instantio
-  - name: Hosts
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Proxmox 01
-        description: Proxmox 01
-        icon: favicon
-        url: https://10.0.8.15:8006/
-        id: 0_529_proxmox
-      - title: Proxmox 02
-        description: Proxmox 02
-        icon: favicon
-        url: https://10.0.8.16:8006/
-        id: 1_529_proxmox
-      - title: Nexus Media
-        description: Nexus Media
-        icon: hl-qnap
-        url: https://10.0.8.10/cgi-bin/
-        id: 2_529_nexusmedia
-      - title: Nexus App
-        description: Nexus App
-        icon: hl-qnap
-        url: https://10.0.8.12/cgi-bin/
-        id: 3_529_nexusapp
-  - name: Linux OS
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Docker 01 - Glances
-        description: Simple resource usage
-        icon: hl-glances
-        url: http://10.0.9.40:61208/
-        id: 0_722_dockerglances
-      - title: Docker 01 - Glances
-        description: Docker 02
-        icon: hl-glances
-        url: http://10.0.9.41:61208/
-        id: 1_722_dockerglances
-  - name: Container Management
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Nexus Media
-        description: Portainer
-        icon: si-portainer
-        url: http://10.0.8.10:9000/
-        id: 0_1984_nexusmedia
-      - title: Nexus App
-        description: Portainer
-        icon: si-portainer
-        url: http://10.0.8.12:9000/
-        id: 1_1984_nexusapp
-      - title: Docker 01
-        description: Portainer
-        icon: si-portainer
-        url: http://10.0.9.40:9000/
-        id: 2_1984_docker
-      - title: Docker 02
-        description: Portainer
-        icon: si-portainer
-        url: http://10.0.9.41:9000/
-        id: 3_1984_docker
-  - name: Backups
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Nexus Media
-        description: Duplicati
-        icon: hl-duplicati
-        url: http://10.0.8.10:8200/
-        id: 0_713_nexusmedia
-      - title: Nexus App
-        description: Duplicati
-        icon: hl-duplicati
-        url: http://10.0.8.12:8200/
-        id: 1_713_nexusapp
-      - title: Docker 01
-        description: Duplicati
-        icon: hl-duplicati
-        url: http://10.0.9.40:8200/
-        id: 2_713_docker
-      - title: Docker 02
-        description: Duplicati
-        icon: hl-duplicati
-        url: http://10.0.9.41:8200/
-        id: 3_713_docker
   - name: Websites
     displayData:
       sortBy: default
@@ -538,16 +328,3 @@ sections:
         url: https://forum.qnap.com/
         target: newtab
         id: 2_838_qnapforum
-  - name: OOBM
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Proxmox 02 - HP iLO
-        description: HP iLO
-        icon: favicon
-        url: https://10.0.8.130/
-        id: 0_301_proxmoxhpilo
