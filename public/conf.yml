@@ -4,6 +4,8 @@ pageInfo:
   title: Homelab
   description: ''
   navLinks:
+  - title: Netlify
+    path: https://app.netlify.com/teams/dan-durden/overview
     target: newtab
   - title: GitHub
     path: https://github.com/Lissy93/dashy
@@ -14,10 +16,8 @@ pageInfo:
   footerText: ''
 
 pages:
-  - name: Infrastructure Services
-    path: 'Infrastructure.yml'
-  - name: Media & Entertainment
-    path: 'Media-Entertainment.yml'
+  - name: Networking Services
+    path: 'networking.yml'
 
 # Optional app settings and configuration
 appConfig:
