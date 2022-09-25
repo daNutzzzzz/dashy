@@ -20,8 +20,8 @@ pages:
     path: 'conf.yml'
   - name: Infrastructure Services
     path: 'Infrastructure.yml'
-  - name: Media & Entertainment
-    path: 'MediaEntertainment.yml'
+  - name: Personal
+    path: 'Personal.yml'
 
 # Optional app settings and configuration
 appConfig:
