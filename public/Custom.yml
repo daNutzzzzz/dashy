@@ -73,6 +73,9 @@ sections:
       - title: DIYNOT
         icon: favicon
         url: https://www.diynot.com/diy/
+      - title: ultimatehandyman
+        icon: favicon
+        url: https://www.ultimatehandyman.co.uk/forum1/index.php
   - name: GitHub
     icon: fab fa-github-alt
     displayData:
