@@ -61,6 +61,18 @@ sections:
       - title:Google Drive
         icon: favicon
         url: https://drive.google.com
+  - name: DIY
+    icon: hl-kamatera
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: DIYNOT
+        icon: favicon
+        url: https://www.diynot.com/diy/
   - name: GitHub
     icon: fab fa-github-alt
     displayData:
