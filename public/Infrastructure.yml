@@ -5,10 +5,6 @@ pageInfo:
   navLinks:
   - title: Netlify
     path: https://app.netlify.com/teams/dan-durden/overview
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
 
 pages:
   - name: Main

@@ -2,18 +2,18 @@
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Media and Entertainment
-  description: 'Media and Entertainment'
+  description: 'Welcome'
   navLinks:
   - title: AVForums
-    path: https://github.com/Lissy93/dashy
+    path: https://www.avforums.com/forums/
   - title: AVSForums
-    path: https://dashy.to/docs
+    path: https://www.avsforum.com/
   - title: Plex Forums
-    path: https://dashy.to/docs
+    path: https://forums.plex.tv/
   - title: RR Wiki
-    path: https://dashy.to/docs    
+    path: https://wiki.servarr.com/   
   - title: Trash Guides
-    path: https://dashy.to/docs    
+    path: https://trash-guides.info/
     
 pages:
   - name: Main
