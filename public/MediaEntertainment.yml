@@ -80,7 +80,7 @@ sections:
         icon: hl-plexrequests
         id: 10_1956_plexrequests
       - title: SABnzbd
-        icon: favicon
+        icon: hl-sabnzbd
         url: http://10.0.9.41:8088/
         id: 11_1956_sabnzbd
       - title: qBittorrent
@@ -92,7 +92,7 @@ sections:
         url: http://10.0.9.41:5076/
         id: 13_1956_nzbhydra
       - title: Medusa
-        icon: favicon
+        icon: hl-medusa
         url: http://10.0.8.10:8081/home/
         id: 14_1956_medusa
       - title: Headphones
@@ -100,11 +100,11 @@ sections:
         url: http://10.0.8.10:14002/home
         id: 15_1956_headphones
       - title: LazyLibrarian
-        icon: favicon
+        icon: hl-lazylibrarian
         url: http://10.0.8.10:5299/books
         id: 16_1956_lazylibrarian
       - title: Tautulli
-        icon: favicon
+        icon: hl-tautulli
         url: http://10.0.8.10:8181/home
         id: 17_1956_tautulli
       - title: Trakt
@@ -139,21 +139,17 @@ sections:
         url: https://www.xtorx.com/
         id: 24_1956_xtorx
       - title: Radarr
-        icon: favicon
+        icon: hl-radarr
         url: http://10.0.9.41:7878
         id: 25_1956_radarr
       - title: Sonarr
-        icon: favicon
+        icon: hl-sonarr
         url: http://10.0.9.41:8989
         id: 26_1956_sonarr
       - title: Lidarr
-        icon: favicon
+        icon: hl-lidarr
         url: http://10.0.9.41:8686
         id: 27_1956_lidarr
-      - title: Readarr
-        icon: favicon
-        url: http://10.0.9.41:8787
-        id: 28_1956_readarr
   - name: Home Control
     icon: fas fa-house-signal
     items:
@@ -194,6 +190,7 @@ sections:
         id: 1_1302_bitwarden
       - title: Readarr
         description: E-reader app
+        url: http://10.0.9.41:8787
         icon: hl-readarr
         id: 2_1302_readarr
       - title: Wallabag
@@ -279,56 +276,3 @@ sections:
         icon: fab fa-github-alt
         url: https://github.com/insideearth2160
         id: 5_579_insideearth
-  - name: Icons
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Home-Lab Icons
-        url: https://github.com/WalkxHub/dashboard-icons#icons
-        id: 0_508_homelabicons
-      - title: Simple Icons
-        url: https://simpleicons.org/
-        id: 1_508_simpleicons
-      - title: Icon Scout
-        url: https://iconscout.com/
-        id: 2_508_iconscout
-  - name: File Sharing
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: FilePizza
-        icon: hl-filepizza
-        url: https://file.pizza/
-        id: 0_1132_filepizza
-      - title: Instant.io
-        icon: hl-joomla
-        url: https://instant.io/
-        id: 1_1132_instantio
-  - name: Websites
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: AVForums
-        url: https://www.avforums.com/forums/
-        target: newtab
-        id: 0_838_avforums
-      - title: AVSForum
-        url: https://www.avsforum.com/forums/
-        target: newtab
-        id: 1_838_avsforum
-      - title: QNAP Forum
-        url: https://forum.qnap.com/
-        target: newtab
-        id: 2_838_qnapforum

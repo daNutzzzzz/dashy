@@ -59,6 +59,8 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: Dashy Icons Guide
+        url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
       - title: Home-Lab Icons
         url: https://github.com/WalkxHub/dashboard-icons#icons
         id: 0_508_homelabicons
