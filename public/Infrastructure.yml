@@ -17,9 +17,9 @@ pageInfo:
 
 pages:
   - name: Infrastructure Services
-    path: 'Infrastructure.yml'
+    path: 'pages/Infrastructure.yml'
   - name: Media & Entertainment
-    path: 'Media-Entertainment.yml'
+    path: 'pages/Media-Entertainment.yml'
 
 # Optional app settings and configuration
 appConfig:
