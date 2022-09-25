@@ -77,7 +77,7 @@ sections:
         id: 10_1956_plexrequests
       - title: SABnzbd
         icon: favicon
-        url: http://10.0.9.41:8080/
+        url: http://10.0.9.41:8088/
         id: 11_1956_sabnzbd
       - title: qBittorrent
         icon: hl-qbittorrent
@@ -201,28 +201,24 @@ sections:
         icon: awda
         url: http://10.0.8.6/
         id: 10_1064_modem
-  - name: Monitoring
+  - name: Network Monitoring
     icon: fas fa-tachometer-alt-fast
     items:
-      - title: Prometheus
-        description: Infrastructure Monitoring
-        icon: favicon
-        url: http://10.0.9.40:9090
       - title: SmokePing
         description: Network latency monitoring
         icon: hl-smokeping
         url: http://10.0.9.40:82/smokeping/?target=ExternalNodes
         id: 0_1840_smokeping
-      - title: StatPing
-        description: Up-time monitoring for local service
-        icon: hl-statping
-        url: https://github.com/statping/statping
-        id: 1_1840_statping
       - title: LibreSpeed
         description: Local network speed and latency test
         icon: hl-librespeed
         url: http://10.0.9.40:85/
         id: 2_1840_librespeed
+      - title: StatPing
+        description: Up-time monitoring for local service
+        icon: hl-statping
+        url: https://github.com/statping/statping
+        id: 1_1840_statping
       - title: NetData
         description: Real-time system resource usage
         icon: hl-netdata
@@ -241,15 +237,6 @@ sections:
   - name: System Monitoring
     icon: fas fa-monitor-heart-rate
     items:
-      - title: cAdvisor
-        description: Container monitoring
-        icon: hl-cadvisor
-        url: https://github.com/google/cadvisor
-        id: 0_1739_cadvisor
-      - title: Dozzle
-        description: Docker container web log viewer
-        icon: hl-dozzle
-        id: 1_1739_dozzle
       - title: HealthChecks
         description: Cron Job Monitoring
         icon: hl-healthchecks
@@ -265,6 +252,31 @@ sections:
         description: System Statistics Aggregation with PromQL
         icon: hl-prometheus
         id: 4_1739_prometheus
+        url:  http://10.0.9.40:9090
+        - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        url: http://10.0.8.10:8080
+        id: 0_1739_cadvisor
+        - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        url: http://10.0.8.12:8080
+        id: 0_1739_cadvisor
+        - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        url: http://10.0.9.40:8080
+        id: 0_1739_cadvisor
+        - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        url: http://10.0.9.41:8080
+        id: 0_1739_cadvisor
+      - title: Dozzle
+        description: Docker container web log viewer
+        icon: hl-dozzle
+        id: 1_1739_dozzle
   - name: Home Control
     icon: fas fa-house-signal
     items:
