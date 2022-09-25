@@ -9,6 +9,14 @@ pageInfo:
   - title: Documentation
     path: https://dashy.to/docs
 
+pages:
+  - name: Main
+    path: 'conf.yml'
+  - name: Infrastructure Services
+    path: 'Infrastructure.yml'
+  - name: Media & Entertainment
+    path: 'MediaEntertainment.yml'
+    
 # Optional app settings and configuration
 appConfig:
   theme: nord-frost
