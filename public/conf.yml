@@ -17,11 +17,6 @@ pages:
 # Optional app settings and configuration
 appConfig:
   theme: nord-frost
-  auth:
-    users:
-    - user: dan
-      hash: b78756540419fbef5b17bf0f23a85162a93ec1a4c65e6da6471e67566e103e93c6c4e553151869dc560080ee228732485a9e409c56587c2f7251d97288b634bf
-      type: admin
  
 # Main content - An array of sections, each containing an array of items
 sections:
