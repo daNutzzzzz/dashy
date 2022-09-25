@@ -13,12 +13,6 @@ pageInfo:
     target: newtab
   footerText: ''
 
-pages:
-  - name: Infrastructure Services
-    path: 'Infrastructure.yml'
-  - name: Media Entertainment
-    path: 'MediaEntertainment.yml'
-
 # Optional app settings and configuration
 appConfig:
   theme: nord-frost
