@@ -1,19 +1,8 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Media and Entertainment
+  title: Personal
   description: 'Welcome'
-  navLinks:
-  - title: AVForums
-    path: https://www.avforums.com/forums/
-  - title: AVSForums
-    path: https://www.avsforum.com/
-  - title: Plex Forums
-    path: https://forums.plex.tv/
-  - title: RR Wiki
-    path: https://wiki.servarr.com/   
-  - title: Trash Guides
-    path: https://trash-guides.info/
     
 pages:
   - name: Main

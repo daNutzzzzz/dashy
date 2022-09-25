@@ -205,36 +205,3 @@ sections:
         description: Cloud code editor
         icon: hl-code
         id: 5_1302_vscode
-  - name: GitHub
-    icon: fab fa-github-alt
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: daNutz
-        icon: fab fa-github-alt
-        url: https://github.com/daNutzzzzz
-        id: 0_579_danutz
-      - title: Animal
-        icon: fab fa-github-alt
-        url: https://github.com/Animal-UK
-        id: 1_579_animal
-      - title: InsideEARTH
-        icon: fab fa-github-alt
-        url: https://github.com/insideearth
-        id: 2_579_insideearth
-      - title: InsideEARTH 2140
-        icon: fab fa-github-alt
-        url: https://github.com/insideearth2140
-        id: 3_579_insideearth
-      - title: InsideEARTH 2150
-        icon: fab fa-github-alt
-        url: https://github.com/insideearth2150
-        id: 4_579_insideearth
-      - title: InsideEARTH 2160
-        icon: fab fa-github-alt
-        url: https://github.com/insideearth2160
-        id: 5_579_insideearth
