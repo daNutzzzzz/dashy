@@ -47,14 +47,6 @@ sections:
         icon: hl-youtubedl
         url: https://yt1s.app/
         id: 1_1956_ytdownloads
-      - title: Couch Potato
-        icon: hl-couchpotato
-        url: http://10.0.8.10:5080/
-        id: 2_1956_couchpotato
-      - title: Jellyfin
-        icon: hl-jellyfin
-        url: https://jellyfin.org/
-        id: 3_1956_jellyfin
       - title: FreshRSS
         icon: hl-freshrss
         id: 4_1956_freshrss
@@ -91,14 +83,6 @@ sections:
         icon: hl-nzbhydra
         url: http://10.0.9.41:5076/
         id: 13_1956_nzbhydra
-      - title: Medusa
-        icon: hl-medusa
-        url: http://10.0.8.10:8081/home/
-        id: 14_1956_medusa
-      - title: Headphones
-        icon: hl-headphones
-        url: http://10.0.8.10:14002/home
-        id: 15_1956_headphones
       - title: LazyLibrarian
         icon: hl-lazylibrarian
         url: http://10.0.8.10:5299/books
