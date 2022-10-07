@@ -189,3 +189,8 @@ sections:
         description: Cloud code editor
         icon: hl-code
         id: 5_1302_vscode
+  - name": "Bookmarks",
+    items":
+      - title: Tautulli - Custom Scripts
+        url: https://github.com/Tautulli/Tautulli/wiki/Custom-Scripts
+        target: newtab
