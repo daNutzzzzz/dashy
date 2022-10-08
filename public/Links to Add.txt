@@ -1,0 +1,14 @@
+
+
+PMM
+https://github.com/meisnate12/Plex-Meta-Manager
+https://github.com/meisnate12/Plex-Meta-Manager-Configs
+https://metamanager.wiki/en/latest/
+
+
+Tautulli
+https://github.com/Tautulli/Tautulli/wiki/Custom-Scripts
+https://github.com/blacktwin/JBOPS
+
+Grafana
+https://grafana.com/grafana/dashboards/
