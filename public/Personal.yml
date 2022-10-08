@@ -19,22 +19,4 @@ pages:
 appConfig:
   theme: nord-frost
  
-# Main content - An array of sections, each containing an array of items
-sections:
-  - name: Productivity
-    icon: fas fa-bookmark
-    items:
-      - title: NextCloud
-        icon: hl-nextcloud
-      - title: BitWarden
-        icon: hl-bitwarden
-      - title: Readarr
-        url: http://10.0.9.41:8787
-        icon: hl-readarr
-      - title: Wallabag
-        icon: hl-wallabag
-      - title: ArchiveBox
-        icon: hl-archivebox
-      - title: VS Code
-        icon: hl-code
 
