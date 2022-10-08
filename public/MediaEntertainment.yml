@@ -34,7 +34,7 @@ sections:
     displayData:
       sortBy: last-used
       cols: 2
-      itemCountX: 6
+      itemCountX: 3
       rows: 1
       collapsed: false
       hideForGuests: false
