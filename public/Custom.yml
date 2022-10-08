@@ -1,8 +1,11 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Custom
+  title: Personal
   description: 'Welcome'
+  navLinks:
+  - title: AVForums
+    path: https://www.avforums.com/forums/
     
 pages:
   - name: Main
@@ -20,6 +23,13 @@ appConfig:
 sections:
   - name: Productivity
     icon: fas fa-bookmark
+    displayData:
+      sortBy: last-used
+      cols: 2
+      itemCountX: 6
+      rows: 1
+      collapsed: false
+      hideForGuests: false
     items:
       - title: NextCloud
         description: File storage and apps
@@ -57,10 +67,12 @@ sections:
     items:
       - title: OneDrive
         icon: favicon
-        url: https://onedrive.live.com
+        url: >-
+          https://onedrive.live.com
       - title:Google Drive
         icon: favicon
-        url: https://drive.google.com
+        url: >-
+          https://drive.google.com
   - name: DIY
     icon: hl-kamatera
     displayData:
@@ -72,10 +84,12 @@ sections:
     items:
       - title: DIYNOT
         icon: favicon
-        url: https://www.diynot.com/diy/
+        url: >-
+          https://www.diynot.com/diy/
       - title: ultimatehandyman
         icon: favicon
-        url: https://www.ultimatehandyman.co.uk/forum1/index.php
+        url: >-
+          https://www.ultimatehandyman.co.uk/forum1/index.php
   - name: GitHub
     icon: fab fa-github-alt
     displayData:
@@ -87,30 +101,36 @@ sections:
     items:
       - title: daNutz
         icon: fab fa-github-alt
-        url: https://github.com/daNutzzzzz
-        id: 0_579_danutz
+        url: >-
+          https://github.com/daNutzzzzz
       - title: Animal
         icon: fab fa-github-alt
-        url: https://github.com/Animal-UK
-        id: 1_579_animal
+        url: >-
+          https://github.com/Animal-UK
       - title: InsideEARTH
         icon: fab fa-github-alt
-        url: https://github.com/insideearth
-        id: 2_579_insideearth
+        url: >-
+          https://github.com/insideearth
       - title: InsideEARTH 2140
         icon: fab fa-github-alt
-        url: https://github.com/insideearth2140
-        id: 3_579_insideearth
+        url: >-
+          https://github.com/insideearth2140
       - title: InsideEARTH 2150
         icon: fab fa-github-alt
-        url: https://github.com/insideearth2150
-        id: 4_579_insideearth
+        url: >-
+          https://github.com/insideearth2150
       - title: InsideEARTH 2160
         icon: fab fa-github-alt
-        url: https://github.com/insideearth2160
-        id: 5_579_insideearth
+        url: >-
+          https://github.com/insideearth2160
   - name: Home Control
     icon: fas fa-house-signal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
     items:
       - title: Home Assistant
         description: Smart home control
@@ -136,4 +156,3 @@ sections:
         description: IOT brewery controller
         icon: hl-brewpi
         id: 5_1162_brewpi
-

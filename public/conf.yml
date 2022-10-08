@@ -7,7 +7,7 @@ pageInfo:
 pages:
   - name: Main
     path: 'conf.yml'
-  - name: Custom
+  - name: Personal
     path: 'Custom.yml'
   - name: Infrastructure Services
     path: 'Infrastructure.yml'
