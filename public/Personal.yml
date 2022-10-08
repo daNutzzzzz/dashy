@@ -25,23 +25,17 @@ sections:
     icon: fas fa-bookmark
     items:
       - title: NextCloud
-        description: File storage and apps
         icon: hl-nextcloud
       - title: BitWarden
-        description: Password manager
         icon: hl-bitwarden
       - title: Readarr
-        description: E-reader app
         url: http://10.0.9.41:8787
         icon: hl-readarr
       - title: Wallabag
-        description: Bookmark Manager
         icon: hl-wallabag
       - title: ArchiveBox
-        description: Archive Manager
         icon: hl-archivebox
       - title: VS Code
-        description: Cloud code editor
         icon: hl-code
   - name: Online Storage
     icon: hl-kamatera
@@ -96,20 +90,16 @@ sections:
     icon: fas fa-house-signal
     items:
       - title: Home Assistant
-        description: Smart home control
         icon: hl-home-assistant
       - title: Node-RED
-        description: Flow-based automation
         icon: hl-nodered
       - title: OctoPrint
         description: 3D Printer Control
         icon: hl-octoprint
       - title: Zigbee 2 Mqtt
-        description: Zigbee to MQTT
         icon: hl-zigbee2mqtt
       - title: Alarm Pi
         description: IOT telegram-controlled alarm clock
         icon: hl-alarmpi
       - title: Brew Pi
-        description: IOT brewery controller
         icon: hl-brewpi
