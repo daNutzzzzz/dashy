@@ -8,7 +8,7 @@ pages:
   - name: Main
     path: 'conf.yml'
   - name: Personal
-    path: 'Custom.yml'
+    path: 'Personal.yml'
   - name: Infrastructure Services
     path: 'Infrastructure.yml'
   - name: Media & Entertainment

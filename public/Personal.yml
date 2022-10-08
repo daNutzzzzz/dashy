@@ -2,10 +2,7 @@
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Personal
-  description: 'Welcome'
-  navLinks:
-  - title: AVForums
-    path: https://www.avforums.com/forums/
+  description: Welcome
     
 pages:
   - name: Main
@@ -19,4 +16,88 @@ pages:
 appConfig:
   theme: nord-frost
  
-
+# Main content - An array of sections, each containing an array of items
+sections:
+  - name: Productivity
+    icon: fas fa-bookmark
+    items:
+      - title: NextCloud
+        icon: hl-nextcloud
+      - title: BitWarden
+        icon: hl-bitwarden
+      - title: Readarr
+        url: http://10.0.9.41:8787
+        icon: hl-readarr
+      - title: Wallabag
+        icon: hl-wallabag
+      - title: ArchiveBox
+        icon: hl-archivebox
+      - title: VS Code
+        icon: hl-code
+  - name: Online Storage
+    icon: hl-kamatera
+    items:
+      - title: OneDrive
+        icon: favicon
+        url: >-
+          https://onedrive.live.com
+      - title: Google Drive
+        icon: favicon
+        url: >-
+          https://drive.google.com
+  - name: DIY
+    icon: hl-kamatera
+    items:
+      - title: DIYNOT
+        icon: favicon
+        url: >-
+          https://www.diynot.com/diy/
+      - title: ultimatehandyman
+        icon: favicon
+        url: >-
+          https://www.ultimatehandyman.co.uk/forum1/index.php
+  - name: GitHub
+    icon: fab fa-github-alt
+    items:
+      - title: daNutz
+        icon: fab fa-github-alt
+        url: >-
+          https://github.com/daNutzzzzz
+      - title: Animal
+        icon: fab fa-github-alt
+        url: >-
+          https://github.com/Animal-UK
+      - title: InsideEARTH
+        icon: fab fa-github-alt
+        url: >-
+          https://github.com/insideearth
+      - title: InsideEARTH 2140
+        icon: fab fa-github-alt
+        url: >-
+          https://github.com/insideearth2140
+      - title: InsideEARTH 2150
+        icon: fab fa-github-alt
+        url: >-
+          https://github.com/insideearth2150
+      - title: InsideEARTH 2160
+        icon: fab fa-github-alt
+        url: >-
+          https://github.com/insideearth2160
+  - name: Home Control
+    icon: fas fa-house-signal
+    items:
+      - title: Home Assistant
+        icon: hl-home-assistant
+      - title: Node-RED
+        icon: hl-nodered
+      - title: OctoPrint
+        description: 3D Printer Control
+        icon: hl-octoprint
+      - title: Zigbee 2 Mqtt
+        icon: hl-zigbee2mqtt
+      - title: Alarm Pi
+        description: IOT telegram-controlled alarm clock
+        icon: hl-alarmpi
+      - title: Brew Pi
+        description: IOT brewery controller
+        icon: hl-brewpi
