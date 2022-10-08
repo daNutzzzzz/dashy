@@ -10,5 +10,9 @@ Tautulli
 https://github.com/Tautulli/Tautulli/wiki/Custom-Scripts
 https://github.com/blacktwin/JBOPS
 
+
+SABnzbd
+https://sabnzbd.org/wiki/
+
 Grafana
 https://grafana.com/grafana/dashboards/
