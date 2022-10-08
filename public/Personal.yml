@@ -50,7 +50,7 @@ sections:
         icon: favicon
         url: >-
           https://onedrive.live.com
-      - title:Google Drive
+      - title: Google Drive
         icon: favicon
         url: >-
           https://drive.google.com
