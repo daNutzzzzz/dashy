@@ -130,6 +130,9 @@ sections:
         icon: hl-sonarr
         url: http://10.0.9.41:8989
         id: 26_1956_sonarr
+      - title: Bazarr
+        icon: hl-bazarr
+        url: http://10.0.9.41:6767
       - title: Lidarr
         icon: hl-lidarr
         url: http://10.0.9.41:8686
