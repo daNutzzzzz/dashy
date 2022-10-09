@@ -16,3 +16,8 @@ https://sabnzbd.org/wiki/
 
 Grafana
 https://grafana.com/grafana/dashboards/
+
+
+https://recyclarr.dev/wiki/reference/config-examples/
+
+https://wiki.servarr.com/
