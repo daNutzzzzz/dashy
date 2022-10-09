@@ -42,117 +42,153 @@ sections:
       - title: Alltube
         icon: hl-alltube
         url: https://alltube.online/
+        id: 0_1956_alltube
       - title: YT Downloads
         icon: hl-youtubedl
         url: https://yt1s.app/
+        id: 1_1956_ytdownloads
       - title: FreshRSS
         icon: hl-freshrss
+        id: 4_1956_freshrss
       - title: Requestrr
         icon: hl-requestrr
+        id: 5_1956_requestrr
       - title: Web Torrent
         icon: hl-webtorrent
+        id: 6_1956_webtorrent
       - title: Airsonic
         icon: hl-airsonic
         url: https://airsonic.github.io/docs/install/docker/
+        id: 7_1956_airsonic
       - title: Plex
         icon: hl-plex
         url: http://10.0.8.10:32400/web/
+        id: 8_1956_plex
       - title: PlexDrive
         icon: hl-plexdrive
         url: https://github.com/plexdrive/plexdrive
+        id: 9_1956_plexdrive
       - title: PlexRequests
         icon: hl-plexrequests
+        id: 10_1956_plexrequests
       - title: SABnzbd
         icon: hl-sabnzbd
         url: http://10.0.9.41:8088/
+        id: 11_1956_sabnzbd
       - title: qBittorrent
         icon: hl-qbittorrent
         url: http://10.0.9.41:8087/
+        id: 12_1956_qbittorrent
       - title: NZBHydra
         icon: hl-nzbhydra
         url: http://10.0.9.41:5076/
+        id: 13_1956_nzbhydra
       - title: LazyLibrarian
         icon: hl-lazylibrarian
         url: http://10.0.8.10:5299/books
+        id: 16_1956_lazylibrarian
       - title: Tautulli
         icon: hl-tautulli
         url: http://10.0.8.10:8181/home
+        id: 17_1956_tautulli
       - title: Trakt
         icon: hl-trakt
         url: >-
           https://trakt.tv/users/danjdurden/watchlist?fade=watched&display=movie&sort=title,asc
+        id: 18_1956_trakt
       - title: LastFM
         icon: favicon
         url: https://www.last.fm/user/DanDurden
+        id: 19_1956_lastfm
       - title: Nzbplanet
         icon: favicon
         url: >-
           https://nzbplanet.net/movies?title=&actors=&director=&rating=&genre=&from=2021&to=2023&t=2000
+        id: 20_1956_nzbplanet
       - title: DrunkenSlug
         icon: favicon
         url: >-
           https://drunkenslug.com/movies?title=&actors=&director=&rating=6&genre=&t=2000&year=2020&yearup=on
+        id: 21_1956_drunkenslug
       - title: MovieBox
         icon: favicon
         url: http://themoviebox.net/
+        id: 22_1956_moviebox
       - title: UK EPG
         icon: favicon
         url: https://www.freeview.co.uk/tv-guide
+        id: 23_1956_ukepg
       - title: Xtorx
         icon: hl-xteve
         url: https://www.xtorx.com/
+        id: 24_1956_xtorx
       - title: Radarr
         icon: hl-radarr
         url: http://10.0.9.41:7878
+        id: 25_1956_radarr
       - title: Sonarr
         icon: hl-sonarr
         url: http://10.0.9.41:8989
+        id: 26_1956_sonarr
       - title: Bazarr
         icon: hl-bazarr
         url: http://10.0.9.41:6767
       - title: Lidarr
         icon: hl-lidarr
         url: http://10.0.9.41:8686
+        id: 27_1956_lidarr
   - name: Home Control
     icon: fas fa-house-signal
     items:
       - title: Home Assistant
         description: Smart home control
         icon: hl-home-assistant
+        id: 0_1162_homeassistant
       - title: Node-RED
         description: Flow-based automation
         icon: hl-nodered
+        id: 1_1162_nodered
       - title: OctoPrint
         description: 3D Printer Control
         icon: hl-octoprint
+        id: 2_1162_octoprint
       - title: Zigbee 2 Mqtt
         description: Zigbee to MQTT
         icon: hl-zigbee2mqtt
+        id: 3_1162_zigbeemqtt
       - title: Alarm Pi
         description: IOT telegram-controlled alarm clock
         icon: hl-alarmpi
+        id: 4_1162_alarmpi
       - title: Brew Pi
         description: IOT brewery controller
         icon: hl-brewpi
+        id: 5_1162_brewpi
   - name: Productivity
     icon: fas fa-bookmark
     items:
       - title: NextCloud
         description: File storage and apps
         icon: hl-nextcloud
+        id: 0_1302_nextcloud
       - title: BitWarden
         description: Password manager
         icon: hl-bitwarden
+        id: 1_1302_bitwarden
       - title: Readarr
         description: E-reader app
         url: http://10.0.9.41:8787
         icon: hl-readarr
+        id: 2_1302_readarr
       - title: Wallabag
         description: Bookmark Manager
         icon: hl-wallabag
+        id: 3_1302_wallabag
       - title: ArchiveBox
         description: Archive Manager
         icon: hl-archivebox
+        id: 4_1302_archivebox
       - title: VS Code
         description: Cloud code editor
         icon: hl-code
+        id: 5_1302_vscode
