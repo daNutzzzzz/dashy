@@ -89,7 +89,7 @@ sections:
         url: https://pastebin.com/
       - title: ZeroBin
         icon: favicon
-        url: https://zerobin.net/
+        url: https://www.zerobin.tk/
   - name: File Sharing
     displayData:
       sortBy: default
