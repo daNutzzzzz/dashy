@@ -113,6 +113,9 @@ sections:
       - title: Lidarr
         icon: hl-lidarr
         url: http://10.0.9.41:8686
+      - title: unmanic
+        icon: favicon
+        url: http://10.0.9.41:8888
   - name: Home Control
     icon: fas fa-house-signal
     items:
