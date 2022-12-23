@@ -65,29 +65,6 @@ sections:
         icon: fab fa-github-alt
         url: https://github.com/insideearth2160
         id: 5_579_insideearth
-  - name: Icons
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Dashy Icons Guide
-        icon: favicon
-        url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
-      - title: Home-Lab Icons
-        icon: favicon
-        url: https://github.com/WalkxHub/dashboard-icons#icons
-        id: 0_508_homelabicons
-      - title: Simple Icons
-        icon: favicon
-        url: https://simpleicons.org/
-        id: 1_508_simpleicons
-      - title: Icon Scout
-        icon: favicon
-        url: https://iconscout.com/
-        id: 2_508_iconscout
   - name: Code Sharing
     displayData:
       sortBy: default
@@ -118,6 +95,29 @@ sections:
         icon: hl-joomla
         url: https://instant.io/
         id: 1_1132_instantio
+  - name: Icons
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Dashy Icons Guide
+        icon: favicon
+        url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
+      - title: Home-Lab Icons
+        icon: favicon
+        url: https://github.com/WalkxHub/dashboard-icons#icons
+        id: 0_508_homelabicons
+      - title: Simple Icons
+        icon: favicon
+        url: https://simpleicons.org/
+        id: 1_508_simpleicons
+      - title: Icon Scout
+        icon: favicon
+        url: https://iconscout.com/
+        id: 2_508_iconscout
   - name: Learn more about Dashy
     icon: fas fa-rocket
     displayData:
