@@ -20,6 +20,18 @@ appConfig:
  
 # Main content - An array of sections, each containing an array of items
 sections:
+  - name: Portal
+    icon: 
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gitea
+        icon: 
+        url: https://djd.ddns.net/gitea/
   - name: GitHub
     icon: fab fa-github-alt
     displayData:
