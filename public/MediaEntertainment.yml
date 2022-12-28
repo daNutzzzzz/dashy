@@ -113,6 +113,9 @@ sections:
       - title: Lidarr
         icon: hl-lidarr
         url: http://10.0.9.41:8686
+      - title: Readarr
+        icon: hl-readarr
+        url: http://10.0.9.41:8787
       - title: unmanic
         icon: favicon
         url: http://10.0.9.41:8888
