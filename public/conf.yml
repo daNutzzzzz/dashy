@@ -73,6 +73,9 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: ChatGPT
+        icon: favicon
+        url: https://chat.openai.com/chat
       - title: PasteBin
         icon: favicon
         url: https://pastebin.com/
