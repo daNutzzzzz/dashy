@@ -197,6 +197,10 @@ sections:
         icon: hl-proxmox
         url: https://10.0.8.16:8006/
         id: 1_529_proxmox
+        description: Proxmox 03
+        icon: hl-proxmox
+        url: https://10.0.8.17:8006/
+        id: 1_529_proxmox
       - title: Nexus Media
         description: Nexus Media
         icon: hl-qnap
@@ -252,6 +256,11 @@ sections:
         description: Portainer
         icon: si-portainer
         url: http://10.0.9.41:9000/
+        id: 3_1984_docker
+      - title: Docker 03
+        description: Portainer
+        icon: si-portainer
+        url: http://10.0.9.42:9000/
         id: 3_1984_docker
   - name: Backups
     displayData:
