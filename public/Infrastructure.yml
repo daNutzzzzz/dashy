@@ -197,6 +197,7 @@ sections:
         icon: hl-proxmox
         url: https://10.0.8.16:8006/
         id: 1_529_proxmox
+      - title: Proxmox 03
         description: Proxmox 03
         icon: hl-proxmox
         url: https://10.0.8.17:8006/
