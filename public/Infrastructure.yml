@@ -200,17 +200,17 @@ sections:
         description: Proxmox 03
         icon: hl-proxmox
         url: https://10.0.8.17:8006/
-        id: 1_529_proxmox
+        id: 2_529_proxmox
       - title: Nexus Media
         description: Nexus Media
         icon: hl-qnap
         url: https://10.0.8.10/cgi-bin/
-        id: 2_529_nexusmedia
+        id: 3_529_nexusmedia
       - title: Nexus App
         description: Nexus App
         icon: hl-qnap
         url: https://10.0.8.12/cgi-bin/
-        id: 3_529_nexusapp
+        id: 4_529_nexusapp
   - name: Linux OS
     displayData:
       sortBy: default
@@ -261,7 +261,7 @@ sections:
         description: Portainer
         icon: si-portainer
         url: http://10.0.9.42:9000/
-        id: 3_1984_docker
+        id: 4_1984_docker
   - name: Backups
     displayData:
       sortBy: default
