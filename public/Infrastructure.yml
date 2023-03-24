@@ -62,11 +62,15 @@ sections:
         description: Firewall and network config
         icon: hl-opnsense
         id: 1_1064_opnsense
-      - title: Pi-Hole - 12
+      - title: Pi-Hole - 100
         description: DNS ad-blocking
         icon: hl-pihole
-        url: http://10.0.8.12:180/admin/
+        url: http://10.0.9.100/admin/
         id: 2_1064_pihole
+      - title: Pi-Hole - 110
+        icon: hl-pihole
+        url: http://10.0.9.110/admin/
+        id: 7_1064_pihole
       - title: MalTrail
         description: Malicious traffic detection system
         icon: hl-router
@@ -86,10 +90,6 @@ sections:
         description: Presence monitoring and ARP scanning
         icon: hl-alertmanager
         id: 6_1064_pialert
-      - title: Pi-Hole - 10
-        icon: hl-pihole
-        url: http://10.0.8.10:180/admin/
-        id: 7_1064_pihole
       - title: piAlert
         icon: hl-pi-alert
         url: http://10.0.9.40:20211/pialert/
