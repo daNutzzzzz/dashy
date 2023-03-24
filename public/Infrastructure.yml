@@ -56,7 +56,7 @@ sections:
     items:
       - title: UniFi
         icon: hl-unifi
-        url: https://10.0.8.12:8443/
+        url: https://10.0.9.40:8443/
         id: 0_1064_unifi
       - title: OPNSense
         description: Firewall and network config
@@ -330,7 +330,7 @@ sections:
       - title: Gitea
         description: Gitea
         icon: hl-gitea
-        url: http://10.0.8.12:3000/
+        url: http://10.0.9.40:3001/
   - name: Hosting
     displayData:
       sortBy: default
