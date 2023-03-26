@@ -71,6 +71,10 @@ sections:
         icon: hl-pihole
         url: http://10.0.9.110/admin/
         id: 7_1064_pihole
+      - title: Pi-Alert
+        icon: hl-pialert
+        url: http://10.0.9.40:20211/
+        id: 1_1064_pialert
       - title: MalTrail
         description: Malicious traffic detection system
         icon: hl-router
