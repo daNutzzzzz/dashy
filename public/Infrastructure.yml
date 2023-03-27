@@ -178,7 +178,7 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Proxmox 02 - HP iLO
+      - title: Proxmox VE 02 - HP iLO
         description: HP iLO
         icon: hl-ilo
         url: https://10.0.8.130/
@@ -191,17 +191,17 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Proxmox 01
+      - title: Proxmox VE 01
         description: Proxmox 01
         icon: hl-proxmox
         url: https://10.0.8.15:8006/
         id: 0_529_proxmox
-      - title: Proxmox 02
+      - title: Proxmox VE 02
         description: Proxmox 02
         icon: hl-proxmox
         url: https://10.0.8.16:8006/
         id: 1_529_proxmox
-      - title: Proxmox 03
+      - title: Proxmox VE 03
         description: Proxmox 03
         icon: hl-proxmox
         url: https://10.0.8.17:8006/
@@ -211,11 +211,6 @@ sections:
         icon: hl-qnap
         url: https://10.0.8.10/cgi-bin/
         id: 3_529_nexusmedia
-      - title: Nexus App
-        description: Nexus App
-        icon: hl-qnap
-        url: https://10.0.8.12/cgi-bin/
-        id: 4_529_nexusapp
   - name: Linux OS
     displayData:
       sortBy: default
@@ -229,11 +224,16 @@ sections:
         icon: hl-glances
         url: http://10.0.9.40:61208/
         id: 0_722_dockerglances
-      - title: Docker 01 - Glances
+      - title: Docker 02 - Glances
         description: Docker 02
         icon: hl-glances
         url: http://10.0.9.41:61208/
         id: 1_722_dockerglances
+      - title: Docker 03 - Glances
+        description: Docker 03
+        icon: hl-glances
+        url: http://10.0.9.42:61208/
+        id: 2_722_dockerglances
   - name: Container Management
     displayData:
       sortBy: default
@@ -247,11 +247,6 @@ sections:
         icon: si-portainer
         url: http://10.0.8.10:9000/
         id: 0_1984_nexusmedia
-      - title: Nexus App
-        description: Portainer
-        icon: si-portainer
-        url: http://10.0.8.12:9000/
-        id: 1_1984_nexusapp
       - title: Docker 01
         description: Portainer
         icon: si-portainer
@@ -267,34 +262,6 @@ sections:
         icon: si-portainer
         url: http://10.0.9.42:9000/
         id: 4_1984_docker
-  - name: Backups
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Nexus Media
-        description: Duplicati
-        icon: hl-duplicati
-        url: http://10.0.8.10:8200/
-        id: 0_713_nexusmedia
-      - title: Nexus App
-        description: Duplicati
-        icon: hl-duplicati
-        url: http://10.0.8.12:8200/
-        id: 1_713_nexusapp
-      - title: Docker 01
-        description: Duplicati
-        icon: hl-duplicati
-        url: http://10.0.9.40:8200/
-        id: 2_713_docker
-      - title: Docker 02
-        description: Duplicati
-        icon: hl-duplicati
-        url: http://10.0.9.41:8200/
-        id: 3_713_docker
   - name: Backups
     displayData:
       sortBy: default
