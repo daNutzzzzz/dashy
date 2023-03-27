@@ -295,7 +295,7 @@ sections:
         icon: hl-duplicati
         url: http://10.0.9.41:8200/
         id: 3_713_docker
-  - name: Container Backups
+  - name: Backups
     displayData:
       sortBy: default
       rows: 1
@@ -303,34 +303,10 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Nexus Media
+      - title: Proxmox Backup Server
         description: rclone
-        icon: hl-rclone
-        url: http://10.0.8.10:5572/#/dashboard
-        id: 0_713_nexusmedia
-      - title: Nexus App
-        description: rclone
-        icon: hl-rclone
-        url: http://10.0.8.12:5572/#/dashboard
-        id: 1_713_nexusapp
-      - title: Docker 01
-        description: rclone
-        icon: hl-rclone
-        url: http://10.0.9.40:5572/#/dashboard
-        id: 2_713_docker
-      - title: Docker 02
-        description: rclone
-        icon: hl-rclone
-        url: http://10.0.9.41:5572/#/dashboard
-        id: 3_713_docker
-  - name: Git Backups
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
+        icon: hl-proxmox
+        url: http://10.0.8.50:8007/
       - title: Gitea
         description: Gitea
         icon: hl-gitea
