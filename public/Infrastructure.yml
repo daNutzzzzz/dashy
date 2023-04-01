@@ -273,7 +273,7 @@ sections:
       - title: Proxmox Backup Server
         description: PBS
         icon: hl-proxmox
-        url: http://10.0.8.50:8007/
+        url: https://10.0.8.50:8007/#pbsDashboard
       - title: Gitea
         description: Gitea
         icon: hl-gitea
