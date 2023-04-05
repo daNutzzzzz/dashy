@@ -286,6 +286,26 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: Vultr
+        description:
+        icon: favicon
+        url: https://my.vultr.com/
+      - title: Digital Ocean
+        description:
+        icon: favicon
+        url: https://cloud.digitalocean.com/login
+      - title: Linode
+        description:
+        icon: favicon
+        url: https://www.linode.com
+      - title: Kamatera
+        description:
+        icon: favicon
+        url: https://www.kamatera.com/
+      - title: AlphaVPS
+        description:
+        icon: favicon
+        url: https://alphavps.com/clients/aff.php?aff=474&pid=422
       - title: Netlify
         description:
         icon: favicon
