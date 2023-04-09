@@ -83,6 +83,18 @@ sections:
         icon: fab fa-github-alt
         url: >-
           https://github.com/insideearth2160
+      - title: InsidePanzerClaws
+        icon: fab fa-github-alt
+        url: >-
+          https://github.com/InsidePanzerClaws
+      - title: InsideBlackGold
+        icon: fab fa-github-alt
+        url: >-
+          https://github.com/InsideBlackGold
+      - title: InsideKnightShift
+        icon: fab fa-github-alt
+        url: >-
+          https://github.com/InsideKnightShift
   - name: Home Control
     icon: fas fa-house-signal
     items:
