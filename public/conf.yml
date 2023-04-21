@@ -98,6 +98,17 @@ sections:
         icon: hl-joomla
         url: https://instant.io/
         id: 1_1132_instantio
+  - name: Photo Editing
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Pixlr
+        icon: hl-pixlr
+        url: https://pixlr.com/
   - name: Icons
     displayData:
       sortBy: default
