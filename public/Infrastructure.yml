@@ -18,6 +18,13 @@ appConfig:
  
 # Main content - An array of sections, each containing an array of items
 sections:
+  - name: Home Monitoring
+    icon: fas fa-tachometer-alt-fast
+    items:
+      - title: Emporia Energy
+        description: Network latency monitoring
+        icon: favicon
+        url: https://web.emporiaenergy.com/
   - name: Network Monitoring
     icon: fas fa-tachometer-alt-fast
     items:
