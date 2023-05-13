@@ -202,17 +202,18 @@ sections:
         description: Proxmox 01
         icon: hl-proxmox
         url: https://10.0.8.15:8006/
-        id: 0_529_proxmox
       - title: Proxmox VE 02
         description: Proxmox 02
         icon: hl-proxmox
         url: https://10.0.8.16:8006/
-        id: 1_529_proxmox
       - title: Proxmox VE 03
         description: Proxmox 03
         icon: hl-proxmox
         url: https://10.0.8.17:8006/
-        id: 2_529_proxmox
+      - title: Proxmox VE 04
+        description: Proxmox 04
+        icon: hl-proxmox
+        url: https://10.0.8.18:8006/
       - title: Nexus Media
         description: Nexus Media
         icon: hl-qnap
