@@ -25,6 +25,10 @@ sections:
         description: Network latency monitoring
         icon: favicon
         url: https://web.emporiaenergy.com/
+      - title: BlueIris
+        description: IP Cameras
+        icon: favicon
+        url: http://10.0.9.40:81/login.htm
   - name: Network Monitoring
     icon: fas fa-tachometer-alt-fast
     items:
