@@ -29,7 +29,7 @@ sections:
         description: IP Cameras
         icon: favicon
         url: http://10.0.9.40:81/login.htm
-  - name: Network Monitoring
+  - name: Infrastructure Monitoring
     icon: fas fa-tachometer-alt-fast
     items:
       - title: SmokePing
@@ -37,7 +37,12 @@ sections:
         icon: hl-smokeping
         url: http://10.0.9.40:82/smokeping/?target=ExternalNodes
         id: 0_1840_smokeping
-      - title: LibreSpeed
+      - title: NetData
+        description: Real-time system resource usage
+        icon: hl-netdata
+        url: https://www.netdata.cloud/
+        id: 3_1840_netdata
+        - title: LibreSpeed
         description: Local network speed and latency test
         icon: hl-librespeed
         url: http://10.0.9.40:85/
@@ -47,11 +52,6 @@ sections:
         icon: hl-statping
         url: https://github.com/statping/statping
         id: 1_1840_statping
-      - title: NetData
-        description: Real-time system resource usage
-        icon: hl-netdata
-        url: https://www.netdata.cloud/
-        id: 3_1840_netdata
       - title: Zabbix
         description: IT Monitoring
         icon: hl-zabbix
