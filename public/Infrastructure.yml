@@ -40,9 +40,9 @@ sections:
       - title: NetData
         description: Real-time system resource usage
         icon: hl-netdata
-        url: https://www.netdata.cloud/
+        url: https://app.netdata.cloud/
         id: 3_1840_netdata
-        - title: LibreSpeed
+      - title: LibreSpeed
         description: Local network speed and latency test
         icon: hl-librespeed
         url: http://10.0.9.40:85/
