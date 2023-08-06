@@ -29,7 +29,7 @@ sections:
         description: IP Cameras
         icon: favicon
         url: http://10.0.9.40:81/login.htm
-  - name: Infrastructure Monitoring
+  - name: Network Monitoring
     icon: fas fa-tachometer-alt-fast
     items:
       - title: SmokePing
@@ -42,10 +42,22 @@ sections:
         icon: hl-netdata
         url: https://app.netdata.cloud/
         id: 3_1840_netdata
+      - title: Grafana
+        description: Data visualised on dashboards
+        icon: hl-grafana
+        url: http://10.0.9.40:3000/d/4Yo8IZ-Wk/unifi-poller-usg-insights-prometheus?orgId=1&refresh=30s
       - title: LibreSpeed
         description: Local network speed and latency test
         icon: hl-librespeed
         url: http://10.0.9.40:85/
+      - title: CloudFlare Speed Test
+        description: CloudFlare network speed and latency test
+        icon: favicon
+        url: https://speed.cloudflare.com/
+      - title: BT Wholoesale Speed Test
+        description: BT Wholoesale network speed and latency test
+        icon: favicon
+        url: https://speedtest.btwholesale.com/
         id: 2_1840_librespeed
       - title: StatPing
         description: Up-time monitoring for local service
@@ -62,6 +74,49 @@ sections:
         icon: hl-cockpit
         url: https://www.redhat.com/sysadmin/intro-cockpit
         id: 5_1840_cockpit
+  - name: System Monitoring
+    icon: fas fa-monitor-heart-rate
+    items:
+      - title: HealthChecks
+        description: Cron Job Monitoring
+        icon: hl-healthchecks
+        url: >-
+          https://healthchecks.io/projects/4c64aa92-a528-4e75-9cc4-2bd0aef3810b/checks/
+        id: 2_1739_healthchecks
+      - title: Grafana
+        description: Data visualised on dashboards
+        icon: hl-grafana
+        id: 3_1739_grafana
+        url: http://10.0.9.40:3000/d/rYdddlPWk/node-exporter-full?orgId=1&refresh=30s
+      - title: Prometheus
+        description: System Statistics Aggregation with PromQL
+        icon: hl-prometheus
+        id: 4_1739_prometheus
+        url:  http://10.0.9.40:9090
+      - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        url: http://10.0.8.10:8080
+        id: 0_1739_cadvisor
+      - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        url: http://10.0.8.12:8081
+        id: 0_1739_cadvisor
+      - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        url: http://10.0.9.40:8080
+        id: 0_1739_cadvisor
+      - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        url: http://10.0.9.41:8080
+        id: 0_1739_cadvisor
+      - title: Dozzle
+        description: Docker container web log viewer
+        icon: hl-dozzle
+        id: 1_1739_dozzle
   - name: Networking
     icon: fas fa-network-wired
     items:
@@ -117,49 +172,6 @@ sections:
         icon: awda
         url: http://10.0.8.6/
         id: 10_1064_modem
-  - name: System Monitoring
-    icon: fas fa-monitor-heart-rate
-    items:
-      - title: HealthChecks
-        description: Cron Job Monitoring
-        icon: hl-healthchecks
-        url: >-
-          https://healthchecks.io/projects/4c64aa92-a528-4e75-9cc4-2bd0aef3810b/checks/
-        id: 2_1739_healthchecks
-      - title: Grafana
-        description: Data visualised on dashboards
-        icon: hl-grafana
-        id: 3_1739_grafana
-        url: http://10.0.9.40:3000/d/rYdddlPWk/node-exporter-full?orgId=1&refresh=1m
-      - title: Prometheus
-        description: System Statistics Aggregation with PromQL
-        icon: hl-prometheus
-        id: 4_1739_prometheus
-        url:  http://10.0.9.40:9090
-      - title: cAdvisor
-        description: Container monitoring
-        icon: hl-cadvisor
-        url: http://10.0.8.10:8080
-        id: 0_1739_cadvisor
-      - title: cAdvisor
-        description: Container monitoring
-        icon: hl-cadvisor
-        url: http://10.0.8.12:8081
-        id: 0_1739_cadvisor
-      - title: cAdvisor
-        description: Container monitoring
-        icon: hl-cadvisor
-        url: http://10.0.9.40:8080
-        id: 0_1739_cadvisor
-      - title: cAdvisor
-        description: Container monitoring
-        icon: hl-cadvisor
-        url: http://10.0.9.41:8080
-        id: 0_1739_cadvisor
-      - title: Dozzle
-        description: Docker container web log viewer
-        icon: hl-dozzle
-        id: 1_1739_dozzle
   - name: Systems
     icon: fas fa-monitor-heart-rate
     items:
