@@ -40,7 +40,7 @@ sections:
       - title: NetData
         description: Real-time system resource usage
         icon: hl-netdata
-        url: https://app.netdata.cloud/
+        url: https://app.netdata.cloud/spaces/dan-durden-space/rooms/all-nodes/overview
         id: 3_1840_netdata
       - title: Grafana
         description: Data visualised on dashboards
