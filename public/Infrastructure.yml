@@ -86,15 +86,15 @@ sections:
       - title: NetData (Hosts)
         description: Real-time system resource usage
         icon: hl-netdata
-        url: https://app.netdata.cloud/spaces/dan-durden-space/rooms/home/home#metrics_correlation=false&after=-900&before=0&utc=Europe%2FLondon&offset=%2B1&timezoneName=Edinburgh%2C%20London&modal=&modalTab=&modalParams=&selectedIntegrationCategory=deploy.operating-systems&21c29b58-8fcc-4c43-820a-a593a6c1c9dc--chartName=menu_system
+        url: https://app.netdata.cloud/spaces/dan-durden-space/rooms/home/overview#metrics_correlation=false&after=-900&before=0&utc=Europe%2FLondon&offset=%2B1&timezoneName=Edinburgh%2C%20London&modal=&modalTab=&modalParams=&selectedIntegrationCategory=deploy.operating-systems&21c29b58-8fcc-4c43-820a-a593a6c1c9dc--chartName=menu_system&521fb6bf-2d19-4b0d-b154-366207410f4a--chartName=menu_system
       - title: NetData (Containers)
         description: Real-time system resource usage
         icon: hl-netdata
-        url: https://app.netdata.cloud/spaces/dan-durden-space/rooms/home-containers/home#metrics_correlation=false&after=-900&before=0&utc=Europe%2FLondon&offset=%2B1&timezoneName=Edinburgh%2C%20London&modal=&modalTab=&modalParams=&selectedIntegrationCategory=deploy.operating-systems&21c29b58-8fcc-4c43-820a-a593a6c1c9dc--chartName=menu_system
+        url: https://app.netdata.cloud/spaces/dan-durden-space/rooms/home-containers/overview#metrics_correlation=false&after=-900&before=0&utc=Europe%2FLondon&offset=%2B1&timezoneName=Edinburgh%2C%20London&modal=&modalTab=&modalParams=&selectedIntegrationCategory=deploy.operating-systems&21c29b58-8fcc-4c43-820a-a593a6c1c9dc--chartName=menu_system&d9a7a019-35bf-43f1-914d-e7dea21bebb1--chartName=menu_system
       - title: NetData (DNS)
         description: Real-time system resource usage
         icon: hl-netdata
-        url: https://app.netdata.cloud/spaces/dan-durden-space/rooms/home-dns/home#metrics_correlation=false&after=-900&before=0&utc=Europe%2FLondon&offset=%2B1&timezoneName=Edinburgh%2C%20London&modal=&modalTab=&modalParams=&selectedIntegrationCategory=deploy.operating-systems&21c29b58-8fcc-4c43-820a-a593a6c1c9dc--chartName=menu_system
+        url: https://app.netdata.cloud/spaces/dan-durden-space/rooms/home-dns/overview#metrics_correlation=false&after=-900&before=0&utc=Europe%2FLondon&offset=%2B1&timezoneName=Edinburgh%2C%20London&modal=&modalTab=&modalParams=&selectedIntegrationCategory=deploy.operating-systems&21c29b58-8fcc-4c43-820a-a593a6c1c9dc--chartName=menu_system&4d0c414e-761a-401d-a3ff-acb5ed670992--chartName=menu_system
       - title: Grafana (Containers)
         description: Data visualised on dashboards
         icon: hl-grafana
