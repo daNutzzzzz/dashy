@@ -101,6 +101,9 @@ sections:
       - title: Xtorx
         icon: hl-xteve
         url: https://www.xtorx.com/
+      - title: Prowlarr
+        icon: hl-prowlarr
+        url: http://10.0.9.41:9696
       - title: Radarr
         icon: hl-radarr
         url: http://10.0.9.41:7878
