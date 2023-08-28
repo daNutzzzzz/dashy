@@ -84,18 +84,6 @@ sections:
       - title: LastFM
         icon: favicon
         url: https://www.last.fm/user/DanDurden
-      - title: Nzbplanet
-        icon: favicon
-        url: >-
-          https://nzbplanet.net/movies?title=&actors=&director=&rating=&genre=&from=2021&to=2023&t=2000
-      - title: NZBGeek
-        icon: favicon
-        url: >-
-          https://nzbgeek.info/dashboard.php
-      - title: DrunkenSlug
-        icon: favicon
-        url: >-
-          https://drunkenslug.com/movies?title=&actors=&director=&rating=6&genre=&t=2000&year=2020&yearup=on
       - title: MovieBox
         icon: favicon
         url: http://themoviebox.net/
@@ -129,6 +117,21 @@ sections:
       - title: FlickChart
         icon: favicon
         url: https://www.flickchart.com/Charts.aspx?decade=1990&perpage=100
+  - name: Indexers
+    icon: fas fa-house-signal
+    items:
+      - title: Nzbplanet
+        icon: favicon
+        url: >-
+          https://nzbplanet.net/movies?title=&actors=&director=&rating=&genre=&from=2021&to=2023&t=2000
+      - title: NZBGeek
+        icon: favicon
+        url: >-
+          https://nzbgeek.info/dashboard.php
+      - title: DrunkenSlug
+        icon: favicon
+        url: >-
+          https://drunkenslug.com/movies?title=&actors=&director=&rating=6&genre=&t=2000&year=2020&yearup=on
   - name: Home Control
     icon: fas fa-house-signal
     items:
@@ -172,3 +175,4 @@ sections:
       - title: VS Code
         description: Cloud code editor
         icon: hl-code
+        url: https://vscode.dev/
