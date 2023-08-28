@@ -88,6 +88,10 @@ sections:
         icon: favicon
         url: >-
           https://nzbplanet.net/movies?title=&actors=&director=&rating=&genre=&from=2021&to=2023&t=2000
+      - title: NZBGeek
+        icon: favicon
+        url: >-
+          https://nzbgeek.info/dashboard.php
       - title: DrunkenSlug
         icon: favicon
         url: >-
