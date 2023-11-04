@@ -132,7 +132,10 @@ sections:
   - name: Networking
     icon: fas fa-network-wired
     items:
-      - title: UniFi
+      - title: UniFi (UDM-SE)
+        icon: hl-unifi
+        url: http://10.0.0.1
+      - title: UniFi (Docker)
         icon: hl-unifi
         url: https://10.0.9.40:8443/
         id: 0_1064_unifi
