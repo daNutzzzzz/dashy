@@ -95,9 +95,6 @@ sections:
       - title: Xtorx
         icon: hl-xteve
         url: https://www.xtorx.com/
-      - title: Prowlarr
-        icon: hl-prowlarr
-        url: http://10.0.9.41:9696
       - title: Radarr
         icon: hl-radarr
         url: http://10.0.9.41:7878
@@ -122,10 +119,13 @@ sections:
   - name: Indexers
     icon: fas fa-house-signal
     items:
+      - title: Prowlarr
+        icon: hl-prowlarr
+        url: http://10.0.9.41:9696/search
       - title: Nzbplanet
         icon: favicon
         url: >-
-          https://nzbplanet.net/movies?title=&actors=&director=&rating=&genre=&from=2021&to=2023&t=2000
+          https://nzbplanet.net/movies?title=&actors=&director=&rating=&genre=&from=2023&to=2025&t=2000
       - title: NZBGeek
         icon: favicon
         url: >-
