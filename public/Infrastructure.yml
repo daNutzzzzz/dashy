@@ -216,6 +216,10 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: Proxmox VE - MGMT - 01 - HP iLO
+        description: HP iLO
+        icon: hl-ilo
+        url: https://10.0.8.115/
       - title: Proxmox VE - HC - 01 - HP iLO
         description: HP iLO
         icon: hl-ilo
