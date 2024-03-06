@@ -242,6 +242,10 @@ sections:
       hideForGuests: false
     items:
       - title: Proxmox VE 01
+        description: Proxmox Mgmt 01
+        icon: hl-proxmox
+        url: https://10.0.8.5:8006/
+      - title: Proxmox VE 01
         description: Proxmox 01
         icon: hl-proxmox
         url: https://10.0.8.15:8006/
