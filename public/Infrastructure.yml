@@ -18,6 +18,46 @@ appConfig:
  
 # Main content - An array of sections, each containing an array of items
 sections:
+  - name: DCIM
+    icon: fas fa-tachometer-alt-fast
+    items:
+      - title: Netbox Dashboard
+        description: Data Centre Infrastructure Management Dashboard
+        icon: favicon
+        url: http://10.0.9.40:8010
+      - title: Netbox Admin
+        description: Data Centre Infrastructure Management - Admin Portal
+        icon: favicon
+        url: http://10.0.9.40:8010/admin/
+  - name: Power
+    icon: ''
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: UPS
+        icon: test
+        url: http://10.0.8.20/NMC/
+        id: 0_1505_ups
+  - name: 
+    icon: ''
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: 
+    icon: ''
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
   - name: Home Monitoring
     icon: fas fa-tachometer-alt-fast
     items:
@@ -129,17 +169,6 @@ sections:
         description: Docker container web log viewer
         icon: hl-dozzle
         id: 1_1739_dozzle
-  - name: DCIM
-    icon: fas fa-tachometer-alt-fast
-    items:
-      - title: Netbox Dashboard
-        description: Data Centre Infrastructure Management Dashboard
-        icon: favicon
-        url: http://10.0.9.40:8010
-      - title: Netbox Admin
-        description: Data Centre Infrastructure Management - Admin Portal
-        icon: favicon
-        url: http://10.0.9.40:8010/admin/
   - name: Networking
     icon: fas fa-network-wired
     items:
@@ -206,19 +235,6 @@ sections:
         icon: hl-grafana
         id: 3_1739_grafana
         url: http://10.0.9.40:3000/
-  - name: Power
-    icon: ''
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: UPS
-        icon: test
-        url: http://10.0.8.20/NMC/
-        id: 0_1505_ups
   - name: OOBM
     displayData:
       sortBy: default
