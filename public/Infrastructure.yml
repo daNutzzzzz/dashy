@@ -132,10 +132,14 @@ sections:
   - name: DCIM
     icon: fas fa-tachometer-alt-fast
     items:
-      - title: Netbox
-        description: Data Centre Infrastructure Management
-        icon: netbox
+      - title: Netbox Dashboard
+        description: Data Centre Infrastructure Management Dashboard
+        icon: favicon
         url: http://10.0.9.40:8010
+      - title: Netbox Admin
+        description: Data Centre Infrastructure Management - Admin Portal
+        icon: favicon
+        url: http://10.0.9.40:8010/admin/
   - name: Networking
     icon: fas fa-network-wired
     items:
