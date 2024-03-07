@@ -360,7 +360,7 @@ sections:
         icon: hl-gitea
         url: http://10.0.9.40:3001/
   - name: Hosting
-    icon: fas fa-monitor-heart-rate
+    icon: 
     displayData:
       sortBy: default
       rows: 1
