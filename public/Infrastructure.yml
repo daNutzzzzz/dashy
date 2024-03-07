@@ -23,7 +23,7 @@ sections:
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 2
       collapsed: false
       hideForGuests: false
     items:
@@ -40,7 +40,7 @@ sections:
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 2
       collapsed: false
       hideForGuests: false
     items:
@@ -48,22 +48,6 @@ sections:
         icon: test
         url: http://10.0.8.20/NMC/
         id: 0_1505_ups
-  - name: 
-    icon: ''
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-  - name: 
-    icon: ''
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
   - name: Home Monitoring
     icon: fas fa-tachometer-alt-fast
     items:
@@ -125,7 +109,7 @@ sections:
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 2
       collapsed: false
       hideForGuests: false
     items:
@@ -181,15 +165,6 @@ sections:
         description: Docker container web log viewer
         icon: hl-dozzle
         id: 1_1739_dozzle
-  - name: 
-    icon: 
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
   - name: Networking
     icon: fas fa-network-wired
     displayData:
@@ -254,39 +229,12 @@ sections:
         icon: awda
         url: http://10.0.8.6/
         id: 10_1064_modem
-  - name: 
-    icon: 
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-  - name: 
-    icon: 
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-  - name: 
-    icon: 
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
   - name: OOBM
     icon: 
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 4
       collapsed: false
       hideForGuests: false
     items:
@@ -312,7 +260,7 @@ sections:
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 4
       collapsed: false
       hideForGuests: false
     items:
@@ -341,29 +289,12 @@ sections:
         icon: hl-qnap
         url: https://10.0.8.10/cgi-bin/
         id: 3_529_nexusmedia
-  - name: 
-    icon: 
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-  - name: 
-    icon: 
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
   - name: Linux OS
+    icon:
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 4
       collapsed: false
       hideForGuests: false
     items:
@@ -383,10 +314,11 @@ sections:
         url: http://10.0.9.42:61208/
         id: 2_722_dockerglances
   - name: Container Management
+    icon:
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 4
       collapsed: false
       hideForGuests: false
     items:
@@ -411,10 +343,11 @@ sections:
         url: http://10.0.9.42:9000/
         id: 4_1984_docker
   - name: Backups
+    icon:
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 4
       collapsed: false
       hideForGuests: false
     items:
@@ -427,10 +360,11 @@ sections:
         icon: hl-gitea
         url: http://10.0.9.40:3001/
   - name: Hosting
-    displayData:
+   icon: 
+   displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 4
       collapsed: false
       hideForGuests: false
     items:
@@ -460,6 +394,12 @@ sections:
         url: https://app.netlify.com/teams/dan-durden/overview
   - name: Systems
     icon: fas fa-monitor-heart-rate
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
     items:
       - title: Grafana
         description: Data visualised on dashboards
