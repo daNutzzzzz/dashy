@@ -29,7 +29,7 @@ sections:
     items:
       - title: Netbox Dashboard
         description: Data Centre Infrastructure Management Dashboard
-        icon: favicon
+        icon: hl-netbox
         url: http://10.0.9.40:8010
       - title: Netbox Admin
         description: Data Centre Infrastructure Management - Admin Portal
