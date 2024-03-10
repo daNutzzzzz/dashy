@@ -33,7 +33,7 @@ sections:
         url: http://10.0.9.40:8010
       - title: Netbox Admin
         description: Data Centre Infrastructure Management - Admin Portal
-        icon: favicon
+        icon: hl-netbox
         url: http://10.0.9.40:8010/admin/
   - name: Power
     icon: ''
@@ -370,7 +370,7 @@ sections:
     items:
       - title: Vultr
         description:
-        icon: favicon
+        icon: hl-vultr
         url: https://my.vultr.com/
       - title: Digital Ocean
         description:
