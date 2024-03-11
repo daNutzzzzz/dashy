@@ -45,7 +45,7 @@ sections:
       hideForGuests: false
     items:
       - title: UPS
-        icon: test
+        icon: hl-apc
         url: http://10.0.8.20/NMC/
         id: 0_1505_ups
   - name: Home Monitoring
@@ -57,7 +57,7 @@ sections:
         url: https://web.emporiaenergy.com/
       - title: BlueIris
         description: IP Cameras
-        icon: favicon
+        icon: hl-blue-iris
         url: http://10.0.9.40:81/login.htm
   - name: Network Monitoring
     icon: fas fa-tachometer-alt-fast
@@ -226,7 +226,7 @@ sections:
         url: http://10.0.9.40:8001/
         id: 9_1064_ddnsupdater
       - title: Modem
-        icon: awda
+        icon: hl-huawei
         url: http://10.0.8.6/
         id: 10_1064_modem
   - name: OOBM
