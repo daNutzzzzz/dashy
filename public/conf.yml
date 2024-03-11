@@ -122,7 +122,7 @@ sections:
         url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
       - title: Home-Lab Icons
         icon: favicon
-        url: https://github.com/WalkxHub/dashboard-icons#icons
+        url: https://github.com/walkxcode/dashboard-icons/blob/main/ICONS.md
         id: 0_508_homelabicons
       - title: Simple Icons
         icon: favicon
