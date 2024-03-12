@@ -165,6 +165,27 @@ sections:
         description: Docker container web log viewer
         icon: hl-dozzle
         id: 1_1739_dozzle
+  - name: Host Monitoring
+    icon: fas fa-monitor-heart-rate
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: PVE 01
+        icon: hl-netdata
+        url: http://10.0.8.15:19999/
+      - title: PVE 02
+        icon: hl-netdata
+        url: http://10.0.8.16:19999/
+      - title: PVE 03
+        icon: hl-netdata
+        url: http://10.0.8.17:19999/
+      - title: PVE 04
+        icon: hl-netdata
+        url: http://10.0.8.18:19999/
   - name: Networking
     icon: fas fa-network-wired
     displayData:
