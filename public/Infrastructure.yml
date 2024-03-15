@@ -365,6 +365,21 @@ sections:
         icon: si-portainer
         url: http://10.0.9.42:9000/
         id: 4_1984_docker
+  - name: Container Monitoring
+    icon:
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Docker 01
+        icon: hl-netdata
+        url: http://10.0.9.40:19999/
+      - title: Docker 02
+        icon: hl-netdata
+        url: http://10.0.9.41:19999/
   - name: Backups
     icon:
     displayData:
