@@ -3,7 +3,7 @@
 pageInfo:
   title: Infrastructure
   description: Infrastructure
-    navLinks:
+  navLinks:
   - title: Distro Watch - Ubuntu
     path: https://distrowatch.com/table.php?distribution=ubuntu
 
