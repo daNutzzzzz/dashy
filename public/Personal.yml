@@ -7,8 +7,10 @@ pageInfo:
 pages:
   - name: Main
     path: 'conf.yml'
-  - name: Infrastructure Services
+  - name: Infrastructure
     path: 'Infrastructure.yml'
+  - name: Infrastructure Services
+    path: 'InfrastructureServices.yml'
   - name: Media & Entertainment
     path: 'MediaEntertainment.yml'
 
