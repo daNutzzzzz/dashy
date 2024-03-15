@@ -380,6 +380,12 @@ sections:
       - title: Docker 02
         icon: hl-netdata
         url: http://10.0.9.41:19999/
+      - title: piHole 01
+        icon: hl-netdata
+        url: http://10.0.9.100:19999/
+      - title: piHole 02
+        icon: hl-netdata
+        url: http://10.0.9.110:19999/
   - name: Backups
     icon:
     displayData:
