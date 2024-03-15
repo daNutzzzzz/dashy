@@ -3,7 +3,10 @@
 pageInfo:
   title: Infrastructure
   description: Infrastructure
-  
+    navLinks:
+  - title: Distro Watch - Ubuntu
+    path: https://distrowatch.com/table.php?distribution=ubuntu
+
 pages:
   - name: Main
     path: 'conf.yml'
