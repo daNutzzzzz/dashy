@@ -1,0 +1,100 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Infrastructure Services
+  description: Welcome
+  
+pages:
+  - name: Main
+    path: 'conf.yml'
+  - name: Infrastructure
+    path: 'Infrastructure.yml'
+  - name: Media & Entertainment
+    path: 'MediaEntertainment.yml'
+  - name: Personal
+    path: 'Personal.yml'
+
+# Optional app settings and configuration
+appConfig:
+  theme: nord-frost
+ 
+# Main content - An array of sections, each containing an array of items
+sections:
+  - name: Home Monitoring
+    icon: fas fa-tachometer-alt-fast
+    items:
+      - title: Emporia Energy
+        description: Network latency monitoring
+        icon: favicon
+        url: https://web.emporiaenergy.com/
+      - title: BlueIris
+        description: IP Cameras
+        icon: hl-blue-iris
+        url: http://10.0.9.40:81/login.htm
+  - name: Network Services
+    icon: fas fa-network-wired
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Pi-Hole - 100
+        description: DNS ad-blocking
+        icon: hl-pihole
+        url: http://10.0.9.100/admin/
+        id: 2_1064_pihole
+      - title: Pi-Hole - 110
+        icon: hl-pihole
+        url: http://10.0.9.110/admin/
+        id: 7_1064_pihole
+      - title: Pi-Alert
+        icon: hl-pialert
+        url: http://10.0.9.40:20211/
+        id: 1_1064_pialert
+      - title: MalTrail
+        description: Malicious traffic detection system
+        icon: hl-router
+        url: https://github.com/stamparm/MalTrail
+        id: 3_1064_maltrail
+      - title: Ntopng
+        description: Network traffic probe + usage monitor
+        icon: hl-ntop
+        url: https://www.ntop.org/
+        id: 4_1064_ntopng
+      - title: Monit
+        description: Status of firewall system alerts
+        icon: hl-monit
+        url: https://mmonit.com/monit/
+        id: 5_1064_monit
+      - title: PiAlert
+        description: Presence monitoring and ARP scanning
+        icon: hl-alertmanager
+        id: 6_1064_pialert
+      - title: piAlert
+        icon: hl-pi-alert
+        url: http://10.0.9.40:20211/pialert/
+        id: 8_1064_pialert
+      - title: DDNS Updater
+        icon: hl-ddns-updater
+        url: http://10.0.9.40:8001/
+        id: 9_1064_ddnsupdater
+      - title: Modem
+        icon: hl-huawei
+        url: http://10.0.8.6/
+        id: 10_1064_modem
+  - name: Systems
+    icon: fas fa-monitor-heart-rate
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Grafana
+        description: Data visualised on dashboards
+        icon: hl-grafana
+        id: 3_1739_grafana
+        url: http://10.0.9.40:3000/
