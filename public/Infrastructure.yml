@@ -211,15 +211,6 @@ sections:
         description: Firewall and network config
         icon: hl-opnsense
         id: 1_1064_opnsense
-      - title: Pi-Hole - 100
-        description: DNS ad-blocking
-        icon: hl-pihole
-        url: http://10.0.9.100/admin/
-        id: 2_1064_pihole
-      - title: Pi-Hole - 110
-        icon: hl-pihole
-        url: http://10.0.9.110/admin/
-        id: 7_1064_pihole
       - title: Pi-Alert
         icon: hl-pialert
         url: http://10.0.9.40:20211/
