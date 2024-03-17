@@ -255,23 +255,32 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Proxmox VE - MGMT - 01 - HP iLO
-        description: HP iLO
-        icon: hl-ilo
-        url: https://10.0.8.115/
-      - title: Proxmox VE - HC - 01 - HP iLO
-        description: HP iLO
-        icon: hl-ilo
-        url: https://10.0.8.120/
-      - title: Proxmox VE - HC - 02 - HP iLO
-        description: HP iLO
-        icon: hl-ilo
-        url: https://10.0.8.121/
       - title: Proxmox VE 02 - HP iLO
         description: HP iLO
         icon: hl-ilo
         url: https://10.0.8.130/
         id: 0_301_proxmoxhpilo
+  - name: OOBM (NEW)
+    icon: 
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Proxmox VE - MGMT - 01 - HP iLO
+        description: Proxmox-Mgmt-01-v1 - HP iLO
+        icon: hl-ilo
+        url: https://10.0.8.115/
+      - title: Proxmox VE - HC - 01 - HP iLO
+        description: Proxmox-HC-01-v1 - HP iLO
+        icon: hl-ilo
+        url: https://10.0.8.120/
+      - title: Proxmox VE - HC - 02 - HP iLO
+        description: Proxmox-HC-02-v1 - HP iLO
+        icon: hl-ilo
+        url: https://10.0.8.121/
   - name: Hosts
     icon: 
     displayData:
@@ -306,6 +315,27 @@ sections:
         icon: hl-qnap
         url: https://10.0.8.10/cgi-bin/
         id: 3_529_nexusmedia
+  - name: Hosts (NEW)
+    icon: 
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Proxmox VE - MGMT 01 v1
+        description: Proxmox-Mgmt-01-v1
+        icon: hl-proxmox
+        url: https://
+      - title: Proxmox VE - HC 01 v1
+        description: Proxmox-HC-01-v1
+        icon: hl-proxmox
+        url: https://
+      - title: Proxmox VE - HC 02 v1
+        description: Proxmox-HC-02-v1
+        icon: hl-proxmox
+        url: https://
   - name: Linux OS
     icon:
     displayData:
