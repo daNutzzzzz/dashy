@@ -6,7 +6,9 @@ pageInfo:
   navLinks:
   - title: Distro Watch - Ubuntu
     path: https://distrowatch.com/table.php?distribution=ubuntu
-
+  - title: Packages for Linux and Unix
+    path: https://pkgs.org/
+    
 pages:
   - name: Main
     path: 'conf.yml'
