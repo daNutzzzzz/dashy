@@ -193,6 +193,9 @@ sections:
       - title: PVE 04
         icon: hl-netdata
         url: http://10.0.8.18:19999/
+      - title: Nexus-Media
+        icon: hl-netdata
+        url: http://10.0.8.10:19999/
   - name: Networking
     icon: fas fa-network-wired
     displayData:
