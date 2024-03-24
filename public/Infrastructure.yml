@@ -330,11 +330,11 @@ sections:
         icon: hl-proxmox
         url: https://
       - title: Proxmox VE - HC 01 v1
-        description: Proxmox-HC-01-v1
+        description: pve-hc-01-v1.nexus.com
         icon: hl-proxmox
         url: https://10.0.8.30:8006/
       - title: Proxmox VE - HC 02 v1
-        description: Proxmox-HC-02-v1
+        description: pve-hc-02-v1.nexus.com
         icon: hl-proxmox
         url: https://10.0.8.31:8006/
   - name: Linux OS
