@@ -112,6 +112,9 @@ sections:
       - title: Readarr
         icon: hl-readarr
         url: http://10.0.9.41:8787
+      - title: PlexRipper
+        icon: hl-plexripper
+        url: http://10.0.9.41:7000/
       - title: unmanic
         icon: favicon
         url: http://10.0.9.41:8888
