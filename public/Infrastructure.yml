@@ -151,16 +151,6 @@ sections:
       - title: cAdvisor
         description: Container monitoring
         icon: hl-cadvisor
-        url: http://10.0.8.10:8080
-        id: 0_1739_cadvisor
-      - title: cAdvisor
-        description: Container monitoring
-        icon: hl-cadvisor
-        url: http://10.0.8.12:8081
-        id: 0_1739_cadvisor
-      - title: cAdvisor
-        description: Container monitoring
-        icon: hl-cadvisor
         url: http://10.0.9.40:8080
         id: 0_1739_cadvisor
       - title: cAdvisor
