@@ -263,7 +263,7 @@ sections:
       - title: Proxmox VE 02 - HP iLO
         description: HP iLO
         icon: hl-ilo
-        url: https://10.0.8.130/
+        url: https://10.0.7.10/
         id: 0_301_proxmoxhpilo
   - name: OOBM (NEW)
     icon: 
@@ -281,11 +281,11 @@ sections:
       - title: Proxmox VE - HC - 01 - HP iLO
         description: Proxmox-HC-01-v1 - HP iLO
         icon: hl-ilo
-        url: https://10.0.8.120/
+        url: https://10.0.7.20/
       - title: Proxmox VE - HC - 02 - HP iLO
         description: Proxmox-HC-02-v1 - HP iLO
         icon: hl-ilo
-        url: https://10.0.8.121/
+        url: https://10.0.7.21/
   - name: Hosts
     icon: 
     displayData:
