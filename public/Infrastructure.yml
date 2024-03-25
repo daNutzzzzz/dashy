@@ -277,7 +277,7 @@ sections:
       - title: Proxmox VE - MGMT - 01 - HP iLO
         description: Proxmox-Mgmt-01-v1 - HP iLO
         icon: hl-ilo
-        url: https://10.0.8.115/
+        url: https://10.0.7.15/
       - title: Proxmox VE - HC - 01 - HP iLO
         description: Proxmox-HC-01-v1 - HP iLO
         icon: hl-ilo
