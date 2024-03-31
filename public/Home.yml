@@ -23,9 +23,9 @@ sections:
   - name: Control
     icon: fas fa-bookmark
     items:
-      - title: Readarr
-        url: http://
-        icon: hl-readarr
+      - title: Home Assistant
+        url: http://10.0.9.40:8123/
+        icon: hl-homeassistant
   - name: Security
     icon: hl-kamatera
     items:
