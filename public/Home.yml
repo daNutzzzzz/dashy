@@ -1,0 +1,41 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: 3THS
+  description: 3THS Dashboard
+    
+pages:
+  - name: Main
+    path: 'conf.yml'
+  - name: Infrastructure
+    path: 'Infrastructure.yml'
+  - name: Infrastructure Services
+    path: 'InfrastructureServices.yml'
+  - name: Media & Entertainment
+    path: 'MediaEntertainment.yml'
+
+# Optional app settings and configuration
+appConfig:
+  theme: nord-frost
+ 
+# Main content - An array of sections, each containing an array of items
+sections:
+  - name: Control
+    icon: fas fa-bookmark
+    items:
+      - title: Readarr
+        url: http://
+        icon: hl-readarr
+  - name: Security
+    icon: hl-kamatera
+    items:
+      - title: CCTV
+        icon: favicon
+        url: https://
+  - name: Home Theatre
+    icon: hl-kamatera
+    items:
+      - title: Denon AVC-X3800H
+        icon: favicon
+        url: >-
+          http://10.0.30.90
