@@ -1,4 +1,4 @@
----
+`---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Infrastructure
@@ -55,17 +55,6 @@ sections:
         icon: hl-apc
         url: http://10.0.8.20/NMC/
         id: 0_1505_ups
-  - name: Home Monitoring
-    icon: fas fa-tachometer-alt-fast
-    items:
-      - title: Emporia Energy
-        description: Network latency monitoring
-        icon: favicon
-        url: https://web.emporiaenergy.com/
-      - title: BlueIris
-        description: IP Cameras
-        icon: hl-blue-iris
-        url: http://10.0.9.40:81/login.htm
   - name: Network Monitoring
     icon: fas fa-tachometer-alt-fast
     items:

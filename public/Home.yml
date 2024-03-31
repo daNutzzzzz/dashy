@@ -26,12 +26,20 @@ sections:
       - title: Home Assistant
         url: http://10.0.9.40:8123/
         icon: hl-homeassistant
+  - name: Power        
+    icon: fas fa-tachometer-alt-fast
+    items:
+      - title: Emporia Energy
+        description: Power monitoring
+        icon: favicon
+        url: https://web.emporiaenergy.com/
   - name: Security
     icon: hl-kamatera
     items:
-      - title: CCTV
-        icon: favicon
-        url: https://
+      - title: BlueIris
+        description: IP Cameras
+        icon: hl-blue-iris
+        url: http://10.0.9.40:81/login.htm
       - title: SCRYPTED
         icon: favicon
         url: https://10.0.9.40:10443/
