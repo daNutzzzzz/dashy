@@ -32,6 +32,12 @@ sections:
       - title: CCTV
         icon: favicon
         url: https://
+      - title: SCRYPTED
+        icon: favicon
+        url: https://10.0.9.40:10443/
+      - title: SCRYPTED Cloud
+        icon: favicon
+        url: https://home.scrypted.app/
   - name: Home Theatre
     icon: hl-kamatera
     items:
