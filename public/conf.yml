@@ -9,6 +9,8 @@ pages:
     path: 'conf.yml'
   - name: Personal
     path: 'Personal.yml'
+  - name: Home
+    path: 'Home.yml'
   - name: Infrastructure
     path: 'Infrastructure.yml'
   - name: Infrastructure Services
