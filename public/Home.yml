@@ -20,12 +20,27 @@ appConfig:
  
 # Main content - An array of sections, each containing an array of items
 sections:
-  - name: Control
-    icon: fas fa-bookmark
+  - name: Home Control
+    icon: fas fa-house-signal
     items:
       - title: Home Assistant
         url: http://10.0.9.40:8123/
         icon: hl-homeassistant
+      - title: Node-RED
+        description: Flow-based automation
+        icon: hl-nodered
+      - title: OctoPrint
+        description: 3D Printer Control
+        icon: hl-octoprint
+      - title: Zigbee 2 Mqtt
+        description: Zigbee to MQTT
+        icon: hl-zigbee2mqtt
+      - title: Alarm Pi
+        description: IOT telegram-controlled alarm clock
+        icon: hl-alarmpi
+      - title: Brew Pi
+        description: IOT brewery controller
+        icon: hl-brewpi
   - name: Power        
     icon: fas fa-tachometer-alt-fast
     items:
