@@ -57,6 +57,12 @@ sections:
         id: 0_1505_ups
   - name: Network Monitoring
     icon: fas fa-tachometer-alt-fast
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
     items:
       - title: SmokePing
         description: Network latency monitoring
@@ -105,7 +111,7 @@ sections:
     displayData:
       sortBy: default
       rows: 1
-      cols: 2
+      cols: 4
       collapsed: false
       hideForGuests: false
     items:
