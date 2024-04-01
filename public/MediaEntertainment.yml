@@ -139,6 +139,10 @@ sections:
         icon: favicon
         url: >-
           https://drunkenslug.com/movies?title=&actors=&director=&rating=6&genre=&t=2000&year=2020&yearup=on
+      - title: DigitalCarnage
+        icon: favicon
+        url: >-
+          https://digitalcarnage.info/login?redirect=%2Fbrowse
   - name: Home Control
     icon: fas fa-house-signal
     items:
