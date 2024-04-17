@@ -147,6 +147,10 @@ sections:
         icon: favicon
         url: >-
           https://ninjacentral.co.za/
+      - title: NZBFinder
+        icon: favicon
+        url: >-
+          https://nzbfinder.ws/
       - title: DigitalCarnage
         icon: favicon
         url: >-
