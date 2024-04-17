@@ -151,10 +151,10 @@ sections:
         icon: favicon
         url: >-
           https://digitalcarnage.info/login?redirect=%2Fbrowse
-          https://ninjacentral.co.za/
       - title: BeyondHD
         icon: favicon
-        url: >-https://beyond-hd.me/apply
+        url: >-
+          https://beyond-hd.me/apply
   - name: Productivity
     icon: fas fa-bookmark
     items:
