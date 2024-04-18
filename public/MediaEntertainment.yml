@@ -139,6 +139,14 @@ sections:
         icon: favicon
         url: >-
           https://drunkenslug.com/movies?title=&actors=&director=&rating=6&genre=&t=2000&year=2020&yearup=on
+      - title: OMGWTFnzbs
+        icon: favicon
+        url: >-
+          https://omgwtfnzbs.me/
+      - title: nzbs.in
+        icon: favicon
+        url: >-
+          https://nzbs.in/
       - title: DogNZB
         icon: favicon
         url: >-
@@ -155,14 +163,27 @@ sections:
         icon: favicon
         url: >-
           https://digitalcarnage.info/login?redirect=%2Fbrowse
-      - title: BeyondHD
-        icon: favicon
-        url: >-
-          https://beyond-hd.me/apply
+  - name: Indexer Sites
+    icon: fas fa-bookmark
+    items:
       - title: InviteForum
         icon: favicon
         url: >-
           https://inviteforum.com
+  - name: Trackers
+    icon: fas fa-house-signal
+    items:
+      - title: BeyondHD
+        icon: favicon
+        url: >-
+          https://beyond-hd.me/apply
+  - name: Tracker Sites
+    icon: fas fa-bookmark
+    items:
+      - title: Invitez
+        icon: favicon
+        url: >-
+          https://invitez.net/
   - name: Productivity
     icon: fas fa-bookmark
     items:
