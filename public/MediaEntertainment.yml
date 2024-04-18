@@ -180,6 +180,10 @@ sections:
   - name: Tracker Sites
     icon: fas fa-bookmark
     items:
+      - title: InviteForum
+        icon: favicon
+        url: >-
+          https://inviteforum.com
       - title: Invitez
         icon: favicon
         url: >-
