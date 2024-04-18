@@ -161,7 +161,8 @@ sections:
           https://beyond-hd.me/apply
       - title: InviteForum
         icon: favicon
-        url: >-https://inviteforum.com/
+        url: >-
+          https://inviteforum.com
   - name: Productivity
     icon: fas fa-bookmark
     items:
