@@ -9,7 +9,7 @@ pages:
     path: 'conf.yml'
   - name: Personal
     path: 'Personal.yml'
-  - name: Personal
+  - name: Personal Investments
     path: 'Finance-Investments.yml'
   - name: Home
     path: 'Home.yml'
