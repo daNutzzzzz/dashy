@@ -7,12 +7,16 @@ pageInfo:
 pages:
   - name: Main
     path: 'conf.yml'
+  - name: Personal
+    path: 'Personal.yml'
+  - name: Personal
+    path: 'Finance-Investments.yml'
+  - name: Home
+    path: 'Home.yml'
   - name: Infrastructure
     path: 'Infrastructure.yml'
   - name: Media & Entertainment
     path: 'MediaEntertainment.yml'
-  - name: Personal
-    path: 'Personal.yml'
 
 # Optional app settings and configuration
 appConfig:

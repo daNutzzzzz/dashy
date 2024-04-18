@@ -7,6 +7,10 @@ pageInfo:
 pages:
   - name: Main
     path: 'conf.yml'
+  - name: Personal
+    path: 'Personal.yml'
+  - name: Personal
+    path: 'Finance-Investments.yml'
   - name: Infrastructure
     path: 'Infrastructure.yml'
   - name: Infrastructure Services

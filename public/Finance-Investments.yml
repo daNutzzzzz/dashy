@@ -1,0 +1,74 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Finance & Investments
+  description: Welcome
+    
+pages:
+  - name: Main
+    path: 'conf.yml'
+  - name: Infrastructure
+    path: 'Infrastructure.yml'
+  - name: Infrastructure Services
+    path: 'InfrastructureServices.yml'
+  - name: Media & Entertainment
+    path: 'MediaEntertainment.yml'
+
+# Optional app settings and configuration
+appConfig:
+  theme: nord-frost
+ 
+# Main content - An array of sections, each containing an array of items
+sections:
+  - name: Finance - Trackers
+    icon: fas fa-bookmark
+    items:
+      - title: Bank of England
+        icon: favicon
+        url: >-
+          https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp
+      - title: USwitch - Mortgage Rates
+        icon: favicon
+        url: >-
+          https://www.uswitch.com/mortgages/uk-mortgage-rates-today/
+      - title: Which - Mortgage
+        icon: favicon
+        url: >-
+          https://www.which.co.uk/money/mortgages-and-property/mortgages/getting-a-mortgage/finding-the-best-mortgage-deals-aLbQB2O2lDAz
+  - name: Investment - Material Trackers
+    icon: hl-kamatera
+    items:
+      - title: Gold
+        icon: favicon
+        url: >-
+          https://www.gold.co.uk/gold-price/week/grams/GBP/
+      - title: Silver
+        icon: favicon
+        url: >-
+          https://www.gold.co.uk/silver-price/week/grams/GBP/
+      - title: Platinum
+        icon: favicon
+        url: >-
+          https://www.gold.co.uk/platinum-price/week/grams/GBP/
+  - name: Investment - Crypto Trackers
+    icon: hl-kamatera
+    items:
+      - title: All Crypto
+        icon: favicon
+        url: >-
+          https://www.tradingview.com/markets/cryptocurrencies/prices-all/
+      - title: Bitcoin
+        icon: favicon
+        url: >-
+          https://www.tradingview.com/symbols/BTCGBP/
+  - name: Mortgages - Trackers
+    icon: fas fa-bookmark
+    items:
+      - title: USwitch - Mortgage Rates
+        icon: favicon
+        url: >-
+          https://www.uswitch.com/mortgages/uk-mortgage-rates-today/
+      - title: Which - Mortgage
+        icon: favicon
+        url: >-
+          https://www.which.co.uk/money/mortgages-and-property/mortgages/getting-a-mortgage/finding-the-best-mortgage-deals-aLbQB2O2lDAz
