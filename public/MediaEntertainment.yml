@@ -41,7 +41,7 @@ sections:
     icon: fas fa-photo-video
     displayData:
       sortBy: last-used
-      cols: 2
+      cols: 4
       itemCountX: 3
       rows: 1
       collapsed: false
