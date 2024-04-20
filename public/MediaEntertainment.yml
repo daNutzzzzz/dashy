@@ -143,14 +143,6 @@ sections:
         icon: favicon
         url: >-
           https://drunkenslug.com/movies?title=&actors=&director=&rating=6&genre=&t=2000&year=2020&yearup=on
-      - title: OMGWTFnzbs
-        icon: favicon
-        url: >-
-          https://omgwtfnzbs.me/
-      - title: nzbs.in
-        icon: favicon
-        url: >-
-          https://nzbs.in/
       - title: DogNZB
         icon: favicon
         url: >-
@@ -159,14 +151,25 @@ sections:
         icon: favicon
         url: >-
           https://ninjacentral.co.za/
-      - title: NZBFinder
-        icon: favicon
-        url: >-
-          https://nzbfinder.ws/
       - title: DigitalCarnage
         icon: favicon
         url: >-
           https://digitalcarnage.info/login?redirect=%2Fbrowse
+  - name: Indexers (WANTED)
+    icon: fas fa-house-signal
+    items:
+      - title: OMGWTFnzbs
+        icon: favicon
+        url: >-
+          https://omgwtfnzbs.me/
+      - title: nzbs.in
+        icon: favicon
+        url: >-
+          https://nzbs.in/
+      - title: NZBFinder
+        icon: favicon
+        url: >-
+          https://nzbfinder.ws/
   - name: Indexer Sites
     icon: fas fa-bookmark
     items:
@@ -177,10 +180,29 @@ sections:
   - name: Trackers
     icon: fas fa-house-signal
     items:
+  - name: Trackers (WANTED)
+    icon: fas fa-house-signal
+    items:
       - title: BeyondHD
         icon: favicon
         url: >-
           https://beyond-hd.me/apply
+      - title: HDBits
+        icon: favicon
+        url: >-
+          https://hdbits.org/
+      - title: PassthePopcorn
+        icon: favicon
+        url: >-
+          https://passthepopcorn.me/
+      - title: GazelleGames
+        icon: favicon
+        url: >-
+          https://gazellegames.net/register.php
+      - title: AnimeBytes
+        icon: favicon
+        url: >-
+          https://animebytes.tv/
   - name: Tracker Sites
     icon: fas fa-bookmark
     items:
