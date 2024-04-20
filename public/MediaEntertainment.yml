@@ -167,6 +167,12 @@ sections:
           https://digitalcarnage.info/login?redirect=%2Fbrowse
   - name: Indexers (WANTED)
     icon: fas fa-house-signal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
     items:
       - title: OMGWTFnzbs
         icon: favicon
@@ -217,6 +223,12 @@ sections:
           https://animebytes.tv/
   - name: Tracker Sites
     icon: fas fa-bookmark
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
     items:
       - title: InviteForum
         icon: favicon
@@ -228,6 +240,12 @@ sections:
           https://invitez.net/
   - name: Productivity
     icon: fas fa-bookmark
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
     items:
       - title: NextCloud
         description: File storage and apps
