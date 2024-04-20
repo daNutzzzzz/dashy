@@ -127,6 +127,12 @@ sections:
         url: https://www.flickchart.com/Charts.aspx?decade=1990&perpage=100
   - name: Indexers
     icon: fas fa-house-signal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
     items:
       - title: Prowlarr
         icon: hl-prowlarr
@@ -179,6 +185,12 @@ sections:
           https://inviteforum.com
   - name: Trackers
     icon: fas fa-house-signal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
     items:
   - name: Trackers (WANTED)
     icon: fas fa-house-signal
