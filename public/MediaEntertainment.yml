@@ -130,7 +130,7 @@ sections:
     displayData:
       sortBy: default
       rows: 1
-      cols: 4
+      cols: 2
       collapsed: false
       hideForGuests: false
     items:
@@ -188,7 +188,7 @@ sections:
     displayData:
       sortBy: default
       rows: 1
-      cols: 4
+      cols: 2
       collapsed: false
       hideForGuests: false
     items:
