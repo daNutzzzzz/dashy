@@ -131,26 +131,30 @@ sections:
       - title: Prowlarr
         icon: hl-prowlarr
         url: http://10.0.9.41:9696/search
-      - title: Nzbplanet
-        icon: favicon
-        url: >-
-          https://nzbplanet.net/movies?title=&actors=&director=&rating=&genre=&from=2023&to=2025&t=2000
       - title: NZBGeek
         icon: favicon
         url: >-
           https://nzbgeek.info/dashboard.php
+      - title: Nzbplanet
+        icon: favicon
+        url: >-
+          https://nzbplanet.net/movies?title=&actors=&director=&rating=&genre=&from=2023&to=2025&t=2000
+      - title: NZBFinder
+        icon: favicon
+        url: >-
+          https://nzbfinder.ws/
       - title: DrunkenSlug
         icon: favicon
         url: >-
           https://drunkenslug.com/movies?title=&actors=&director=&rating=6&genre=&t=2000&year=2020&yearup=on
-      - title: DogNZB
-        icon: favicon
-        url: >-
-          https://dognzb.cr/
       - title: NinjaCentral
         icon: favicon
         url: >-
           https://ninjacentral.co.za/
+      - title: DogNZB
+        icon: favicon
+        url: >-
+          https://dognzb.cr/
       - title: DigitalCarnage
         icon: favicon
         url: >-
@@ -166,10 +170,6 @@ sections:
         icon: favicon
         url: >-
           https://nzbs.in/
-      - title: NZBFinder
-        icon: favicon
-        url: >-
-          https://nzbfinder.ws/
   - name: Indexer Sites
     icon: fas fa-bookmark
     items:
