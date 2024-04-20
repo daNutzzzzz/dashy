@@ -35,6 +35,19 @@ sections:
         description: IP Cameras
         icon: hl-blue-iris
         url: http://10.0.9.40:81/login.htm
+  - name: IRC Services
+    icon: fas fa-network-wired
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: theLounge
+        description: WebIRC
+        icon: hl-thelounge
+        url: http://10.0.9.40:9001/
   - name: Network Services
     icon: fas fa-network-wired
     displayData:
