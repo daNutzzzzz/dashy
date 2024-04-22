@@ -44,6 +44,10 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: Newsgrouper
+        description: A web interface to Usenet discussion groups (no binaries)
+        icon: favicon
+        url: https://cmacleod.me.uk/ng
       - title: theLounge
         description: WebIRC
         icon: hl-thelounge
