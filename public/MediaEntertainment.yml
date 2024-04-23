@@ -227,7 +227,8 @@ sections:
     items:
       - title: H-1337x
         icon: favicon
-        url: >-https://1337x.to/
+        url: >-
+          https://1337x.to/
       - title: EZTVx
         icon: favicon
         url: >-
