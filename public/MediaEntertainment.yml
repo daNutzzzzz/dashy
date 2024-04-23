@@ -185,6 +185,30 @@ sections:
         icon: favicon
         url: >-
           https://nzbs.in/
+  - name: Index Providors
+    icon: fas fa-house-signal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Eweka
+        icon: hl-prowlarr
+        url: https://www.eweka.nl/en/myeweka/login
+      - title: NewsgroupDirect
+        icon: favicon
+        url: >-
+          https://newsgroupdirect.com/login-form
+      - title: UsenetFarm
+        icon: favicon
+        url: >-
+          https://usenet.farm/members.html
+      - title: bulknews
+        icon: favicon
+        url: >-
+          https://www.bulknews.eu/member/
   - name: Indexer Sites
     icon: fas fa-bookmark
     items:
@@ -201,6 +225,17 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: H-1337x
+        icon: favicon
+        url: >-https://1337x.to/
+      - title: EZTVx
+        icon: favicon
+        url: >-
+          https://eztvx.to/
+      - title: YTS
+        icon: favicon
+        url: >-
+          https://yts.mx/
       - title: H-P2P
         icon: favicon
         url: >-
