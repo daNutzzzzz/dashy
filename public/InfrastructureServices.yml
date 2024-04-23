@@ -118,3 +118,16 @@ sections:
         icon: hl-grafana
         id: 3_1739_grafana
         url: http://10.0.9.40:3000/
+  - name: Intenet
+    icon: fas fa-monitor-heart-rate
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: IPLeak
+        description: IP Security Testing
+        icon: favicon
+        url: https://ipleak.net/
