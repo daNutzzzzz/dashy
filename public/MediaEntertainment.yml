@@ -195,7 +195,7 @@ sections:
       hideForGuests: false
     items:
       - title: Eweka
-        icon: hl-prowlarr
+        icon: favicon
         url: https://www.eweka.nl/en/myeweka/login
       - title: NewsgroupDirect
         icon: favicon
