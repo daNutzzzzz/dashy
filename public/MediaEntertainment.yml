@@ -128,7 +128,7 @@ sections:
       - title: FlickChart
         icon: favicon
         url: https://www.flickchart.com/Charts.aspx?decade=1990&perpage=100
-  - name: Indexers
+  - name: Indexer Agreegators
     icon: fas fa-house-signal
     displayData:
       sortBy: default
@@ -140,6 +140,18 @@ sections:
       - title: Prowlarr
         icon: hl-prowlarr
         url: http://10.0.9.41:9696/search
+      - title: FlareSolverr
+        icon: hl-flaresolverr
+        url: http://10.0.9.41:8191/
+  - name: Indexers
+    icon: fas fa-house-signal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    items:
       - title: NZBGeek
         icon: favicon
         url: >-
