@@ -63,6 +63,7 @@ sections:
         icon: hl-archivebox
       - title: VS Code
         icon: hl-code
+        url: https://vscode.dev/
   - name: DIY
     icon: hl-kamatera
     items:
