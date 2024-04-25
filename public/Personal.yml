@@ -25,6 +25,29 @@ appConfig:
 # Main content - An array of sections, each containing an array of items
 sections:
   - name: Productivity
+    icon: fas fa-email
+    items:
+      - title: Outlook
+        icon: favicon
+        url: https://outlook.live.com/
+      - title: Proton
+        icon: favicon
+        url: https://mail.proton.me/
+      - title: Tuta
+        icon: favicon
+        url: https://app.tuta.com/
+  - name: Online Storage
+    icon: hl-storage
+    items:
+      - title: OneDrive
+        icon: favicon
+        url: >-
+          https://onedrive.live.com
+      - title: Google Drive
+        icon: favicon
+        url: >-
+          https://drive.google.com
+  - name: Productivity
     icon: fas fa-bookmark
     items:
       - title: NextCloud
@@ -40,17 +63,6 @@ sections:
         icon: hl-archivebox
       - title: VS Code
         icon: hl-code
-  - name: Online Storage
-    icon: hl-kamatera
-    items:
-      - title: OneDrive
-        icon: favicon
-        url: >-
-          https://onedrive.live.com
-      - title: Google Drive
-        icon: favicon
-        url: >-
-          https://drive.google.com
   - name: DIY
     icon: hl-kamatera
     items:
