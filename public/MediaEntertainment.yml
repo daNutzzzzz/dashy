@@ -291,6 +291,7 @@ sections:
         icon: favicon
         url: >-
           https://github.com/ngosang/trackerslist/?tab=readme-ov-file
+  - name: Trackers Sites
     icon: fas fa-bookmark
     displayData:
       sortBy: default
