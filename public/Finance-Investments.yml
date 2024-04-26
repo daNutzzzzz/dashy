@@ -23,18 +23,26 @@ sections:
   - name: Finance - Trackers
     icon: fas fa-bookmark
     items:
-      - title: Bank of England
+      - title: Bank of England - Interest Rate
         icon: favicon
         url: >-
           https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp
-      - title: USwitch - Mortgage Rates
+      - title: TV - UK - Interest Rate
         icon: favicon
         url: >-
-          https://www.uswitch.com/mortgages/uk-mortgage-rates-today/
-      - title: Which - Mortgage
+          https://www.tradingview.com/symbols/ECONOMICS-GBINTR/
+      - title: TV - US - Interest Rate
         icon: favicon
         url: >-
-          https://www.which.co.uk/money/mortgages-and-property/mortgages/getting-a-mortgage/finding-the-best-mortgage-deals-aLbQB2O2lDAz
+          https://www.tradingview.com/symbols/ECONOMICS-USINTR/
+      - title: NN - Interest Rates
+        icon: favicon
+        url: >-
+          https://www.newsnow.co.uk/h/Business+&+Finance/Interest+Rates?type=ln
+      - title: NN - UK - Interest Rates
+        icon: favicon
+        url: >-
+          https://www.newsnow.co.uk/h/Business+&+Finance/Interest+Rates/UK+Interest+Rates?type=ln
   - name: Investment - Material Trackers
     icon: hl-kamatera
     items:
@@ -61,9 +69,17 @@ sections:
         icon: favicon
         url: >-
           https://www.tradingview.com/symbols/BTCGBP/
-  - name: Mortgages - Trackers
+  - name: Mortgages
     icon: fas fa-bookmark
     items:
+      - title: USwitch - Mortgage Rates
+        icon: favicon
+        url: >-
+          https://www.uswitch.com/mortgages/uk-mortgage-rates-today/
+      - title: Which - Mortgage
+        icon: favicon
+        url: >-
+          https://www.which.co.uk/money/mortgages-and-property/mortgages/getting-a-mortgage/finding-the-best-mortgage-deals-aLbQB2O2lDAz
       - title: USwitch - Mortgage Rates
         icon: favicon
         url: >-
