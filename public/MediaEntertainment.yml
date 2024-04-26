@@ -276,7 +276,21 @@ sections:
         icon: favicon
         url: >-
           https://animebytes.tv/
-  - name: Tracker Sites
+  - name: Trackers Tools
+    icon: fas fa-house-signal
+    items:
+      - title: Torrent Creator
+        icon: favicon
+        url: >-
+          https://creeper6530.github.io/torrent-creator/index.html
+      - title: Torrent Editor
+        icon: favicon
+        url: >-
+          http://torrenteditor.com/
+      - title: Traker List
+        icon: favicon
+        url: >-
+          https://github.com/ngosang/trackerslist/?tab=readme-ov-file
     icon: fas fa-bookmark
     displayData:
       sortBy: default
