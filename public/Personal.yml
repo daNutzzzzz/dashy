@@ -71,6 +71,17 @@ sections:
       - title: VS Code
         icon: hl-code
         url: https://vscode.dev/
+  - name: Emulators
+    icon: hl-storage
+    items:
+      - title: EmulatorJS
+        icon: favicon
+        url: >-
+          http://10.0.9.40:86/
+      - title: EmulatorJS Mgmt
+        icon: favicon
+        url: >-
+          http://10.0.9.40:3006/
   - name: DIY
     icon: hl-kamatera
     items:
