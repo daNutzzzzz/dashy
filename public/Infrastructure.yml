@@ -185,6 +185,21 @@ sections:
       - title: Nexus-Media
         icon: hl-netdata
         url: http://10.0.8.10:19999/
+  - name: Internet Service Providors
+    icon: fas fa-monitor-heart-rate
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: EE Outage Map
+        icon: hl-netdata
+        url: https://istheservicedown.co.uk/status/ee/map
+      - title: DownDetector - EE
+        icon: hl-netdata
+        url: https://downdetector.co.uk/status/ee-everything-everywhere/
   - name: Networking
     icon: fas fa-network-wired
     displayData:

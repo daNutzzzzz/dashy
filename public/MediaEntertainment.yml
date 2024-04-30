@@ -76,9 +76,6 @@ sections:
       - title: qBittorrent
         icon: hl-qbittorrent
         url: http://10.0.9.41:8087/
-      - title: Transmission
-        icon: hl-transmission
-        url: http://10.0.9.41:9091/transmission/web/
       - title: NZBHydra
         icon: hl-nzbhydra
         url: http://10.0.9.41:5076/
