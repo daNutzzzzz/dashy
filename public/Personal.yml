@@ -96,42 +96,16 @@ sections:
   - name: GitHub
     icon: fab fa-github-alt
     items:
-      - title: daNutz
-        icon: fab fa-github-alt
+      - title: Versus
+        description: Compare Anything
+        icon: favicon
         url: >-
-          https://github.com/daNutzzzzz
-      - title: Animal
-        icon: fab fa-github-alt
+          https://versus.com
+      - title: PriceSpy
+        description: Compare Prices for Tech
+        icon: favicon
         url: >-
-          https://github.com/Animal-UK
-      - title: InsideEARTH
-        icon: fab fa-github-alt
-        url: >-
-          https://github.com/insideearth
-      - title: InsideEARTH 2140
-        icon: fab fa-github-alt
-        url: >-
-          https://github.com/insideearth2140
-      - title: InsideEARTH 2150
-        icon: fab fa-github-alt
-        url: >-
-          https://github.com/insideearth2150
-      - title: InsideEARTH 2160
-        icon: fab fa-github-alt
-        url: >-
-          https://github.com/insideearth2160
-      - title: InsidePanzerClaws
-        icon: fab fa-github-alt
-        url: >-
-          https://github.com/InsidePanzerClaws
-      - title: InsideBlackGold
-        icon: fab fa-github-alt
-        url: >-
-          https://github.com/InsideBlackGold
-      - title: InsideKnightShift
-        icon: fab fa-github-alt
-        url: >-
-          https://github.com/InsideKnightShift
+          https://pricespy.co.uk/
   - name: Home Control
     icon: fas fa-house-signal
     items:
