@@ -24,6 +24,13 @@ appConfig:
  
 # Main content - An array of sections, each containing an array of items
 sections:
+  - name: Enviromental       
+    icon: fas fa-tachometer-alt-fast
+    items:
+      - title: Ventusky
+        description: Enviromental Information
+        icon: favicon
+        url: https://www.ventusky.com/
   - name: Home Control
     icon: fas fa-house-signal
     items:
