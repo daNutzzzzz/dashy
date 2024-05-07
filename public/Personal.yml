@@ -124,3 +124,9 @@ sections:
       - title: Brew Pi
         description: IOT brewery controller
         icon: hl-brewpi
+  - name: Learning & Development
+    icon: fas fa-house-signal
+    items:
+      - title: Home Assistant
+        icon: hl-home-assistant
+        url: https://learn-anything.xyz/
