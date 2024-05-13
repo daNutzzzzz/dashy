@@ -142,7 +142,10 @@ sections:
         url: https://learn.microsoft.com/en-gb/users/dandurden
       - title: Microsoft Enterprise Skills Initiative
         icon: hl-home-assistant
-        url: https://esi.microsoft.com/
+        url: Microsoft Certification poster
+      - title: Microsoft Enterprise Skills Initiative
+        icon: hl-home-assistant
+        url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
       - title: Microsoft Certifications
         icon: hl-home-assistant
         url: https://learn.microsoft.com/en-gb/credentials/
