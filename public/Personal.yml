@@ -134,6 +134,10 @@ sections:
         description: Social Network for Programmers and Developers
         icon: hl-home-assistant
         url: https://morioh.com/
+      - title: EDX
+        description: 
+        icon: hl-home-assistant
+        url: https://www.edx.org/
   - name: Microsoft Learning & Development
     icon: fas fa-house-signal
     items:
