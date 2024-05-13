@@ -133,6 +133,12 @@ sections:
       - title: Microsoft Enterprise Skills Initiative
         icon: hl-home-assistant
         url: https://esi.microsoft.com/
+      - title: Microsoft Certifications
+        icon: hl-home-assistant
+        url: https://learn.microsoft.com/en-gb/credentials/
+      - title: Cisco Certifications
+        icon: hl-home-assistant
+        url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html
       - title: Morioh
         description: Social Network for Programmers and Developers
         icon: hl-home-assistant
