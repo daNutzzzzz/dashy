@@ -124,22 +124,31 @@ sections:
       - title: Brew Pi
         description: IOT brewery controller
         icon: hl-brewpi
-  - name: Learning & Development
+  - name: Tech Learning & Development
     icon: fas fa-house-signal
     items:
-      - title: Home Assistant
+      - title: Learn Anything SE
         icon: hl-home-assistant
         url: https://learn-anything.xyz/
+      - title: Morioh
+        description: Social Network for Programmers and Developers
+        icon: hl-home-assistant
+        url: https://morioh.com/
+  - name: Microsoft Learning & Development
+    icon: fas fa-house-signal
+    items:
+      - title: Microsoft Learn Profile
+        icon: hl-home-assistant
+        url: https://learn.microsoft.com/en-gb/users/dandurden
       - title: Microsoft Enterprise Skills Initiative
         icon: hl-home-assistant
         url: https://esi.microsoft.com/
       - title: Microsoft Certifications
         icon: hl-home-assistant
         url: https://learn.microsoft.com/en-gb/credentials/
+  - name: Cisco Learning & Development
+    icon: fas fa-house-signal
+    items:
       - title: Cisco Certifications
         icon: hl-home-assistant
         url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html
-      - title: Morioh
-        description: Social Network for Programmers and Developers
-        icon: hl-home-assistant
-        url: https://morioh.com/
