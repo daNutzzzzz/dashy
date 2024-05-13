@@ -137,16 +137,16 @@ sections:
   - name: Microsoft Learning & Development
     icon: fas fa-house-signal
     items:
-      - title: Microsoft Learn Profile
-        icon: hl-home-assistant
-        url: https://learn.microsoft.com/en-gb/users/dandurden
-      - title: Microsoft Certification poster
-        icon: hl-home-assistant
-        url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
-      - title: Microsoft Enterprise Skills Initiative
+      - title: Enterprise Skills Initiative
         icon: hl-home-assistant
         url: https://esi.microsoft.com/
-      - title: Microsoft Certifications
+      - title: Learn Profile
+        icon: hl-home-assistant
+        url: https://learn.microsoft.com/en-gb/users/dandurden
+      - title: Certification poster
+        icon: hl-home-assistant
+        url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI
+      - title: Certifications
         icon: hl-home-assistant
         url: https://learn.microsoft.com/en-gb/credentials/
   - name: Cisco Learning & Development
