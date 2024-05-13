@@ -130,6 +130,9 @@ sections:
       - title: Home Assistant
         icon: hl-home-assistant
         url: https://learn-anything.xyz/
+      - title: Microsoft Enterprise Skills Initiative
+        icon: hl-home-assistant
+        url: https://esi.microsoft.com/
       - title: Morioh
         description: Social Network for Programmers and Developers
         icon: hl-home-assistant
