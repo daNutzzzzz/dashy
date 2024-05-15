@@ -170,9 +170,6 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: PVE MGMT 01
-        icon: hl-netdata
-        url: http://10.0.8.20:19999/
       - title: PVE 01
         icon: hl-netdata
         url: http://10.0.8.15:19999/
@@ -302,7 +299,11 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Proxmox VE 01
+      - title: PVE MGMT 01
+        description: Proxmox 01
+        icon: hl-proxmox
+        url: http://10.0.8.20:8006/
+        - title: Proxmox VE 01
         description: Proxmox 01
         icon: hl-proxmox
         url: https://10.0.8.15:8006/
