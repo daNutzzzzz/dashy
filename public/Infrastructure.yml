@@ -303,7 +303,7 @@ sections:
         description: Proxmox 01
         icon: hl-proxmox
         url: http://10.0.8.20:8006/
-        - title: Proxmox VE 01
+      - title: Proxmox VE 01
         description: Proxmox 01
         icon: hl-proxmox
         url: https://10.0.8.15:8006/
