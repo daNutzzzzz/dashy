@@ -69,6 +69,10 @@ sections:
         icon: favicon
         url: >-
           https://www.tradingview.com/symbols/BTCGBP/
+      - title: New COINS
+        icon: favicon
+        url: >-
+          https://coinranking.com/coins/new
   - name: Mortgages
     icon: fas fa-bookmark
     items:
@@ -80,3 +84,10 @@ sections:
         icon: favicon
         url: >-
           https://www.which.co.uk/money/mortgages-and-property/mortgages/getting-a-mortgage/finding-the-best-mortgage-deals-aLbQB2O2lDAz
+  - name: Lottery
+    icon: fas fa-bookmark
+    items:
+      - title: Lottery Checker
+        icon: favicon
+        url: >-
+          https://lotterychecker.co.uk/
