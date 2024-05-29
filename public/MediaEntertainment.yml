@@ -242,6 +242,14 @@ sections:
         icon: favicon
         url: >-
           https://eztvx.to/
+      - title: HD-Space
+        icon: favicon
+        url: >-
+          https://hd-space.org/
+      - title: Upload.cx
+        icon: favicon
+        url: >-
+          https://upload.cx/
       - title: YTS
         icon: favicon
         url: >-
