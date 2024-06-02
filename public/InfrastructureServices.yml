@@ -118,6 +118,14 @@ sections:
         icon: hl-grafana
         id: 3_1739_grafana
         url: http://10.0.9.40:3000/
+      - title: Bonob
+        description: Sonos Gateway
+        icon: favicon
+        url: http://10.0.9.41:4534/
+      - title: Navidrome
+        description: Web Music Streamer
+        icon: favicon
+        url: http://10.0.9.41:4533/
   - name: Intenet
     icon: fas fa-monitor-heart-rate
     displayData:
