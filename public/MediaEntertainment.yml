@@ -254,6 +254,10 @@ sections:
         icon: favicon
         url: >-
           https://yts.mx/
+      - title: heavens-hell
+        icon: favicon
+        url: >-
+          https://heavens-hell.info/
       - title: H-P2P
         icon: favicon
         url: >-
