@@ -57,8 +57,7 @@ sections:
     items:
       - title: UPS
         icon: hl-apc
-        url: http://10.0.8.20/NMC/
-        id: 0_1505_ups
+        url: http://10.0.7.20/
   - name: Network Monitoring
     icon: fas fa-tachometer-alt-fast
     displayData:
