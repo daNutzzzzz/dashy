@@ -85,6 +85,10 @@ sections:
   - name: DIY
     icon: hl-kamatera
     items:
+      - title: iFixIT
+        icon: favicon
+        url: >-
+          https://www.ifixit.com/
       - title: DIYNOT
         icon: favicon
         url: >-
