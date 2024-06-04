@@ -82,6 +82,9 @@ sections:
       - title: ChatGPT
         icon: favicon
         url: https://chat.openai.com/chat
+      - title: PrivateBin
+        icon: favicon
+        url: https://privatebin.net/
       - title: PasteBin
         icon: favicon
         url: https://pastebin.com/
