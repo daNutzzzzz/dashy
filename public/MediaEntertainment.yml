@@ -288,6 +288,10 @@ sections:
         icon: favicon
         url: >-
           https://passthepopcorn.me/
+      - title: blutopia
+        icon: favicon
+        url: >-
+          https://blutopia.cc/
       - title: GazelleGames
         icon: favicon
         url: >-
