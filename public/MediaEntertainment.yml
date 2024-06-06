@@ -76,6 +76,9 @@ sections:
       - title: qBittorrent
         icon: hl-qbittorrent
         url: http://10.0.9.41:8087/
+      - title: Seedr
+        icon: favicon
+        url: https://www.seedr.cc/
       - title: NZBHydra
         icon: hl-nzbhydra
         url: http://10.0.9.41:5076/
@@ -98,9 +101,6 @@ sections:
       - title: UK EPG
         icon: favicon
         url: https://www.freeview.co.uk/tv-guide
-      - title: Xtorx
-        icon: hl-xteve
-        url: https://www.xtorx.com/
       - title: Radarr
         icon: hl-radarr
         url: http://10.0.9.41:7878
@@ -234,6 +234,9 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: Xtorx
+        icon: hl-xteve
+        url: https://www.xtorx.com/
       - title: FearNoPeer
         icon: favicon
         url: >-
