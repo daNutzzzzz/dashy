@@ -234,14 +234,18 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: H-1337x
-        icon: favicon
-        url: >-
-          https://1337x.to/
       - title: FearNoPeer
         icon: favicon
         url: >-
           https://fearnopeer.com/
+      - title: Upload.cx
+        icon: favicon
+        url: >-
+          https://upload.cx/
+      - title: OldToons
+        icon: favicon
+        url: >-
+          https://oldtoons.world/
       - title: EZTVx
         icon: favicon
         url: >-
@@ -250,10 +254,6 @@ sections:
         icon: favicon
         url: >-
           https://hd-space.org/
-      - title: Upload.cx
-        icon: favicon
-        url: >-
-          https://upload.cx/
       - title: YTS
         icon: favicon
         url: >-
@@ -262,6 +262,10 @@ sections:
         icon: favicon
         url: >-
           https://heavens-hell.info/
+      - title: H-1337x
+        icon: favicon
+        url: >-
+          https://1337x.to/
       - title: H-P2P
         icon: favicon
         url: >-
