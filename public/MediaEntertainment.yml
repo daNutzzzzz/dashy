@@ -238,6 +238,10 @@ sections:
         icon: favicon
         url: >-
           https://1337x.to/
+      - title: FearNoPeer
+        icon: favicon
+        url: >-
+          https://fearnopeer.com/
       - title: EZTVx
         icon: favicon
         url: >-
