@@ -274,6 +274,10 @@ sections:
         icon: favicon
         url: >-
           https://hd-space.org/
+      - title: KrayZone
+        icon: favicon
+        url: >-
+          https://krazyzone.net/
       - title: YTS
         icon: favicon
         url: >-
@@ -282,10 +286,18 @@ sections:
         icon: favicon
         url: >-
           https://heavens-hell.info/
+      - title: DocspediA
+        icon: favicon
+        url: >-
+          https://www.docspedia.world/
       - title: H-1337x
         icon: favicon
         url: >-
           https://1337x.to/
+      - title: HappFappy
+        icon: favicon
+        url: >-
+          https://www.happyfappy.org/
       - title: H-P2P
         icon: favicon
         url: >-
