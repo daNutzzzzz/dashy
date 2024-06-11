@@ -88,13 +88,6 @@ sections:
       - title: Tautulli
         icon: hl-tautulli
         url: http://10.0.9.41:8181/home
-      - title: Trakt
-        icon: hl-trakt
-        url: >-
-          https://trakt.tv/users/danjdurden/watchlist?fade=watched&display=movie&sort=title,asc
-      - title: LastFM
-        icon: favicon
-        url: https://www.last.fm/user/DanDurden
       - title: MovieBox
         icon: favicon
         url: http://themoviebox.net/
@@ -128,6 +121,13 @@ sections:
       - title: unmanic
         icon: favicon
         url: http://10.0.9.41:8888
+      - title: Trakt
+        icon: hl-trakt
+        url: >-
+          https://trakt.tv/users/danjdurden
+      - title: LastFM
+        icon: favicon
+        url: https://www.last.fm/user/DanDurden
       - title: MyAnimeList
         icon: favicon
         url: https://myanimelist.net/
