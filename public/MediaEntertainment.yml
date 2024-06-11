@@ -274,6 +274,10 @@ sections:
         icon: favicon
         url: >-
           https://hd-space.org/
+      - title: DigitalCore
+        icon: favicon
+        url: >-
+          https://digitalcore.club/
       - title: KrayZone
         icon: favicon
         url: >-
