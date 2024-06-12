@@ -130,7 +130,7 @@ sections:
         url: https://www.last.fm/user/DanDurden
       - title: MyAnimeList
         icon: favicon
-        url: https://myanimelist.net/
+        url: https://myanimelist.net/profile/daNutzzzz
       - title: FlickChart
         icon: favicon
         url: https://www.flickchart.com/Charts.aspx?decade=1990&perpage=100
@@ -290,6 +290,10 @@ sections:
         icon: favicon
         url: >-
           https://heavens-hell.info/
+      - title: Yoinked
+        icon: favicon
+        url: >-
+          https://yoinked.org/
       - title: DocspediA
         icon: favicon
         url: >-
