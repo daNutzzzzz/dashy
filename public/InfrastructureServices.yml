@@ -124,8 +124,12 @@ sections:
         url: http://10.0.9.41:4534/
       - title: Navidrome
         description: Web Music Streamer
-        icon: favicon
+        icon: hl-navidrome
         url: http://10.0.9.41:4533/
+      - title: Radio Playlists
+        description: m3u-radio-music-playlists
+        icon: hl-navidrome
+        url: https://github.com/junguler/m3u-radio-music-playlists/tree/main
   - name: Intenet
     icon: fas fa-monitor-heart-rate
     displayData:
