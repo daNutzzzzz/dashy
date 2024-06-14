@@ -286,6 +286,10 @@ sections:
         icon: favicon
         url: >-
           https://krazyzone.net/
+      - title: VisionHD
+        icon: favicon
+        url: >-
+          https://vision-hd.org/
       - title: YTS
         icon: favicon
         url: >-
