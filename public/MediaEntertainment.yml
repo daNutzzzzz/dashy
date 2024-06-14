@@ -257,6 +257,10 @@ sections:
       - title: CinemaZ
         icon: favicon
         url: >-
+          https://cinemaz.to/
+      - title: CinemaP2P
+        icon: favicon
+        url: >-
           https://cinemap2p.xyz/
       - title: AnimeTorents
         icon: favicon
