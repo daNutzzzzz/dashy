@@ -186,6 +186,10 @@ sections:
         icon: favicon
         url: >-
           https://digitalcarnage.info/login?redirect=%2Fbrowse
+      - title: NZBsu
+        icon: favicon
+        url: >-
+          https://www.nzb.su/
   - name: Indexers (WANTED)
     icon: fas fa-house-signal
     displayData:
