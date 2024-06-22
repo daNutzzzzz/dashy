@@ -318,6 +318,10 @@ sections:
         icon: favicon
         url: >-
           https://www.happyfappy.org/
+      - title: DenofSimps
+        icon: favicon
+        url: >-
+          https://denofsimps.club/
       - title: H-P2P
         icon: favicon
         url: >-
