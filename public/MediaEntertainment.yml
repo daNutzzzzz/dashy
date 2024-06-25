@@ -134,6 +134,18 @@ sections:
       - title: FlickChart
         icon: favicon
         url: https://www.flickchart.com/Charts.aspx?decade=1990&perpage=100
+  - name: Online Streamers
+    icon: fas fa-house-signal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: ZorroxTV
+        icon: hl-prowlarr
+        url: https://zoroxtv.to/watch/one-piece-ov8/ep-1
   - name: Indexer Agreegators
     icon: fas fa-house-signal
     displayData:
