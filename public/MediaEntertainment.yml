@@ -337,7 +337,7 @@ sections:
       - title: H-P2P
         icon: favicon
         url: >-
-          https://h-p2p.cam/
+          https://h-p2p.xyz/
   - name: Trackers (WANTED)
     icon: fas fa-house-signal
     items:
