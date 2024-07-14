@@ -38,7 +38,7 @@ sections:
         url: https://tempmail.email/
       - title: Tuta
         icon: favicon
-        url: https://app.tuta.com/        
+        url: https://app.tuta.com/
   - name: Online Storage
     icon: hl-storage
     items:
