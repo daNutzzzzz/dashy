@@ -33,9 +33,12 @@ sections:
       - title: Proton
         icon: favicon
         url: https://mail.proton.me/
+      - title: Temp Email
+        icon: favicon
+        url: https://tempmail.email/
       - title: Tuta
         icon: favicon
-        url: https://app.tuta.com/
+        url: https://app.tuta.com/        
   - name: Online Storage
     icon: hl-storage
     items:
