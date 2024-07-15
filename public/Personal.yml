@@ -170,3 +170,9 @@ sections:
       - title: Cisco Certifications
         icon: hl-home-assistant
         url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html
+  - name: Multistream
+    icon: fas fa-house-signal
+    items:
+      - title: Cisco Certifications
+        icon: hl-home-assistant
+        url: https://multistre.am/
