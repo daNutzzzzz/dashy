@@ -118,6 +118,17 @@ sections:
       - title: Pixlr
         icon: hl-pixlr
         url: https://pixlr.com/
+  - name: Diagrams
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Draw.io
+        icon: hl-pixlr
+        url: https://app.diagrams.net/
   - name: Icons
     displayData:
       sortBy: default
