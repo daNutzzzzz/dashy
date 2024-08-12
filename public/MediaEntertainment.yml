@@ -310,6 +310,14 @@ sections:
         icon: favicon
         url: >-
           https://yts.mx/
+      - title: Milkie
+        icon: favicon
+        url: >-
+          https://milkie.cc
+      - title: Infinity
+        icon: favicon
+        url: >-
+          https://infinitylibrary.net
       - title: heavens-hell
         icon: favicon
         url: >-
