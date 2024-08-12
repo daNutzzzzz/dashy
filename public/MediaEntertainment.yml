@@ -210,7 +210,7 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    items:
+    items:`
       - title: OMGWTFnzbs
         icon: favicon
         url: >-
@@ -318,6 +318,10 @@ sections:
         icon: favicon
         url: >-
           https://infinitylibrary.net
+      - title: DataScene
+        icon: favicon
+        url: >-
+          https://datascene.xyz/
       - title: heavens-hell
         icon: favicon
         url: >-
