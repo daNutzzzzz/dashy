@@ -117,6 +117,12 @@ sections:
         icon: favicon
         url: >-
           https://pricespy.co.uk/
+  - name: Gaming
+    icon: fas fa-house-signal
+    items:
+      - title: Pirated Games Mega Thread
+        icon: hl-home-assistant
+        url: https://rentry.org/pgames
   - name: Home Control
     icon: fas fa-house-signal
     items:
