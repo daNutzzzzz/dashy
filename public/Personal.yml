@@ -60,7 +60,7 @@ sections:
   - name: WebSearch
     icon: hl-storage
     items:
-      - title: Hatt)
+      - title: Hatt
         icon: hl-tor
         url: >-
           https://github.com/FrenchGithubUser/Hatt
