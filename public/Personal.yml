@@ -57,6 +57,13 @@ sections:
         icon: hl-tor
         url: >-
           http://10.0.9.40:5800
+  - name: WebSearch
+    icon: hl-storage
+    items:
+      - title: Hatt)
+        icon: hl-tor
+        url: >-
+          https://github.com/FrenchGithubUser/Hatt
   - name: Productivity
     icon: fas fa-bookmark
     items:
