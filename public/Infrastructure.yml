@@ -57,7 +57,7 @@ sections:
     items:
       - title: UPS
         icon: hl-apc
-        url: http://10.0.7.20/
+        url: http://10.0.7.5/
   - name: Network Monitoring
     icon: fas fa-tachometer-alt-fast
     displayData:
