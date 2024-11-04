@@ -74,6 +74,12 @@ sections:
         icon: hl-pihole
         url: http://10.0.9.110/admin/
         id: 7_1064_pihole
+      - title: dnscheck.tools
+        icon: hl-pihole
+        url: https://www.dnscheck.tools/
+      - title: TestFiltering.com
+        icon: hl-pihole
+        url: https://testfiltering.com/
       - title: WireGuard-UI
         icon: hl-wireguard
         url: http://10.0.9.40:5000/
