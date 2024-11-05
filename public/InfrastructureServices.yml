@@ -81,6 +81,12 @@ sections:
       - title: dnscheck.tools
         icon: favicon
         url: https://www.dnscheck.tools/
+      - title: dns leak test (windows)
+        icon: favicon
+        url: https://www.dnsleaktest.com/
+      - title: dns leak test (linux)
+        icon: favicon
+        url: https://github.com/macvk/dnsleaktest
       - title: TestFiltering.com
         icon: favicon
         url: https://testfiltering.com/
