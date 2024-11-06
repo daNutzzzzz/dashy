@@ -309,11 +309,6 @@ sections:
         description: Proxmox 04
         icon: hl-proxmox
         url: https://10.0.8.18:8006/
-      - title: Nexus Media
-        description: Nexus Media
-        icon: hl-qnap
-        url: https://10.0.8.10/cgi-bin/
-        id: 3_529_nexusmedia
   - name: Hosts (NEW)
     icon: 
     displayData:
