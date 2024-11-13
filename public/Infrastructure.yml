@@ -309,6 +309,10 @@ sections:
         description: Proxmox 04
         icon: hl-proxmox
         url: https://10.0.8.18:8006/
+      - title: Proxmox VE 10
+        description: Proxmox 10
+        icon: hl-proxmox
+        url: https://10.0.8.10:8006/
   - name: Hosts (NEW)
     icon: 
     displayData:
