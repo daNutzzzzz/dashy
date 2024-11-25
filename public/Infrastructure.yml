@@ -343,21 +343,22 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: NAS 01 - Glances
+        description: Simple resource usage
+        icon: hl-glances
+        url: http://10.0.8.10:61208/
       - title: Docker 01 - Glances
         description: Simple resource usage
         icon: hl-glances
         url: http://10.0.9.40:61208/
-        id: 0_722_dockerglances
       - title: Docker 02 - Glances
         description: Docker 02
         icon: hl-glances
         url: http://10.0.9.41:61208/
-        id: 1_722_dockerglances
       - title: Docker 03 - Glances
         description: Docker 03
         icon: hl-glances
         url: http://10.0.9.42:61208/
-        id: 2_722_dockerglances
   - name: Container Management
     icon:
     displayData:

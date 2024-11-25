@@ -438,3 +438,7 @@ sections:
         description: Cloud code editor
         icon: hl-code
         url: https://vscode.dev/
+      - title: Cobalt
+        description: Social Media Downloader
+        icon: hl-code
+        url: https://cobalt.tools/
