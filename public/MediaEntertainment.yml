@@ -150,7 +150,6 @@ sections:
       - title: ZorroxTV
         icon: favicon
         url: https://zoroto.live/
-        
   - name: Indexer Agreegators
     icon: fas fa-house-signal
     displayData:
