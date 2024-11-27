@@ -443,5 +443,5 @@ sections:
         url: https://vscode.dev/
       - title: Cobalt
         description: Social Media Downloader
-        icon: hl-code
+        icon:favicon
         url: https://cobalt.tools/
