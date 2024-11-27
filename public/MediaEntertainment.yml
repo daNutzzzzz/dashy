@@ -143,9 +143,14 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: HiAnime
+        icon: favicon
+        url: https://hianime.to/
+    items:
       - title: ZorroxTV
-        icon: hl-prowlarr
-        url: https://zoroxtv.to/watch/one-piece-ov8/ep-1
+        icon: favicon
+        url: https://zoroto.live/
+        
   - name: Indexer Agreegators
     icon: fas fa-house-signal
     displayData:
