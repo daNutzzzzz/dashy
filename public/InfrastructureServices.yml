@@ -133,6 +133,10 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: Nextcloud
+        description: selfhosted cloud
+        icon: hl-nextcloud
+        url: https://10.0.9.40
       - title: Grafana
         description: Data visualised on dashboards
         icon: hl-grafana
