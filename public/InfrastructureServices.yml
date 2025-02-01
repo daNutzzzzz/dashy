@@ -136,7 +136,7 @@ sections:
       - title: Nextcloud
         description: selfhosted cloud
         icon: hl-nextcloud
-        url: https://10.0.9.40
+        url: https://10.0.9.40:44333
       - title: Grafana
         description: Data visualised on dashboards
         icon: hl-grafana
