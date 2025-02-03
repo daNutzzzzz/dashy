@@ -417,6 +417,10 @@ sections:
         description: PBS
         icon: hl-proxmox
         url: https://10.0.8.50:8007/#pbsDashboard
+      - title: NAS Backup Server
+        description: Media Backup
+        icon: hl-debian
+        url: ssh://10.0.9.90
       - title: Gitea
         description: Gitea
         icon: hl-gitea
