@@ -280,7 +280,7 @@ sections:
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
+      cols: 4
       collapsed: false
       hideForGuests: false
     items:
