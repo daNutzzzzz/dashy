@@ -91,3 +91,10 @@ sections:
         icon: favicon
         url: >-
           https://lotterychecker.co.uk/
+  - name: Heatmaps
+    icon: fas fa-bookmark
+    items:
+      - title: Unusual Whales Healtmap
+        icon: favicon
+        url: >-         
+          https://unusualwhales.com/heatmaps
