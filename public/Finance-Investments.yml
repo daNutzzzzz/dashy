@@ -43,6 +43,13 @@ sections:
         icon: favicon
         url: >-
           https://www.newsnow.co.uk/h/Business+&+Finance/Interest+Rates/UK+Interest+Rates?type=ln
+  - name: Finance - Trackers
+    icon: fas fa-bookmark
+    items:
+      - title: USD / GBP
+        icon: favicon
+        url: >-
+          https://www.tradingview.com/symbols/USDGBP/
   - name: Investment - Material Trackers
     icon: hl-kamatera
     items:
