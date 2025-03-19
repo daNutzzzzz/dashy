@@ -176,7 +176,11 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: IPLeak
+      - title: Self Hosted
         description: Self Hosted
         icon: favicon
         url: https://selfh.st/
+      - title: Self Hosted
+        description: Self Hosted
+        icon: favicon
+        url: https://it-tools.tech/
