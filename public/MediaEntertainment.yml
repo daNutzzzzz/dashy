@@ -118,6 +118,9 @@ sections:
       - title: Whisparrv3
         icon: hl-whisparr
         url: http://10.0.9.41:6968/
+      - title: Huntarr
+        icon: hl-huntarr
+        url: http://10.0.9.41:9705/
       - title: PlexRipper
         icon: hl-plexripper
         url: http://10.0.9.41:7000/
