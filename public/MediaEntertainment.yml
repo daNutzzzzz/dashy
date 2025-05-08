@@ -64,7 +64,7 @@ sections:
         url: https://airsonic.github.io/docs/install/docker/
       - title: Plex
         icon: hl-plex
-        url: http://10.0.9.41:32400/web/
+        url: http://10.0.9.43:32400/web/
       - title: PlexDrive
         icon: hl-plexdrive
         url: https://github.com/plexdrive/plexdrive
