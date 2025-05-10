@@ -87,7 +87,7 @@ sections:
         url: http://10.0.8.10:5299/books
       - title: Tautulli
         icon: hl-tautulli
-        url: http://10.0.9.41:8181/home
+        url: http://10.0.9.43:8181/home
       - title: MovieBox
         icon: favicon
         url: http://themoviebox.net/
