@@ -127,6 +127,9 @@ sections:
       - title: unmanic
         icon: favicon
         url: http://10.0.9.41:8888
+      - title: WatchState
+        icon: favicon
+        url: http://10.0.9.41:8080/
       - title: Trakt
         icon: hl-trakt
         url: >-
