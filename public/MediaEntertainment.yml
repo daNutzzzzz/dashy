@@ -143,6 +143,9 @@ sections:
       - title: FlickChart
         icon: favicon
         url: https://www.flickchart.com/Charts.aspx?decade=1990&perpage=100
+      - title: qBittorrent-ReSeedarr
+        icon: hl-qbittorrent
+        url: http://10.0.9.41:8085/
   - name: Online Streamers
     icon: fas fa-house-signal
     displayData:
