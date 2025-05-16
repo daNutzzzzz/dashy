@@ -61,6 +61,10 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
+      - title: SWAG Dashboard
+        description: DNS ad-blocking
+        icon: hl-swag
+        url: https://dashboard.leinad.tech:8443/
       - title: NextDNS.io
         description: DNS ad-blocking
         icon: hl-nextdns
