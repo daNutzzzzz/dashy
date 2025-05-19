@@ -52,7 +52,7 @@ sections:
         description: WebIRC
         icon: hl-thelounge
         url: http://10.0.9.40:9001/
-  - name: Network Services
+  - name: Reverse Proxy
     icon: fas fa-network-wired
     displayData:
       sortBy: default
@@ -65,6 +65,31 @@ sections:
         description: DNS ad-blocking
         icon: hl-swag
         url: https://dashboard.leinad.tech:8443/
+      - title: Plex Media Server
+        description: DNS ad-blocking
+        icon: hl-plex
+        url: https://plex.leinad.tech:8443
+      - title: Tautulli
+        description: 
+        icon: hl-tautulli
+        url: https://tautulli.leinad.tech:8443
+      - title: DDNS-Updater
+        description: Dynamic DNS Updater
+        icon: hl-ddns-updater
+        url: https://ddns-updater.leinad.tech:8443 
+      - title: The Lougne
+        description: IRC Web Client
+        icon: hl-thelounge
+        url: https://thelounge.leinad.tech:8443 
+  - name: Network Services
+    icon: fas fa-network-wired
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
       - title: NextDNS.io
         description: DNS ad-blocking
         icon: hl-nextdns
