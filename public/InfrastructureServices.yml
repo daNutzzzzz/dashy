@@ -209,6 +209,10 @@ sections:
         description: Self Hosted
         icon: favicon
         url: https://selfh.st/
+      - title: Opensource Alternative
+        description: Opensource Alternative
+        icon: favicon
+        url: https://opensourcealternative.to/
       - title: Self Hosted
         description: Self Hosted
         icon: favicon
